@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '3 3 * * *'
+    - cron: '0 21 * * *'
 
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
 
       - name: Make changes
         run: |
-          echo "Some changes" > some_file.txt  # например, создание или изменение файла
+          echo "Some changes" > some_file.txt  
 
       - name: Commit changes
         run: |
@@ -29,7 +29,10 @@ jobs:
           git commit -m "Automated changes"
 
       - name: Push changes
-        run: git push --set-upstream origin auto-branch
+        run: |
+          git push --set-upstream origin auto-branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
