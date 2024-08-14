@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: '0 21 * * *'
-
 
 jobs:
   create-pr:
@@ -16,20 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Make changes
+      - name: Create new branch
         run: |
-          echo "Some changes" > some_file.txt  
-
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b auto-branch
-          git add .
-          git commit -m "Automated changes"
-
-      - name: Push changes
-        run: |
           git push --set-upstream origin auto-branch
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
