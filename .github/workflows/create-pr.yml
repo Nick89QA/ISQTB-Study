@@ -18,7 +18,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         id: cpr  # Добавляем ID для последующего использования
         with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           base: master
           title: "Automated Merge to Master"
@@ -47,4 +47,4 @@ jobs:
                 merge_method: 'merge'
               });
             }
-          github-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
