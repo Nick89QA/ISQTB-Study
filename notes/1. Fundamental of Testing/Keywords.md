@@ -144,3 +144,4 @@ Errors may occur for many reasons, such as:
 - New, unfamiliar technologies
 
 In addition to failures caused due to defects in the code, failures can also be caused by environmental conditions. For example, radiation, electromagnetic fields, and pollution can cause defects in firmware or influence the execution of software by changing hardware conditions.
+Page 15
