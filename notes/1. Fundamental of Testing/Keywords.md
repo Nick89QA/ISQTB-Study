@@ -188,3 +188,38 @@ Some organizations expect that testers can run all possible tests and find all p
 
 See Myers 2011, Kaner 2002, Weinberg 2008, and Beizer 1990 for examples of these and other testing principles.
 
+---
+
+## 1.4 Test Process
+
+There is no one universal software test process, but there are common sets of test activities without which testing will be less likely to achieve its established objectives. These sets of test activities are a test process. The proper, specific software test process in any given situation depends on many factors. Which test activities are involved in this test process, how these activities are implemented, and when these activities occur may be discussed in an organization’s test strategy.
+
+---
+
+### 1.4.1 Test Process in Context
+
+Contextual factors that influence the test process for an organization, include, but are not limited to:
+
+- Software development lifecycle model and project methodologies being used
+- Test levels and test types being considered
+- Product and project risks
+- Business domain
+- Operational constraints, including but not limited to:
+    - Budgets and resources
+    - Timescales
+    - Complexity
+    - Contractual and regulatory requirements
+- Organizational policies and practices
+- Required internal and external standards
+
+The following sections describe general aspects of organizational test processes in terms of the following:
+
+- Test activities and tasks
+- Test work products
+- Traceability between the test basis and test work products
+
+It is very useful if the test basis (for any level or type of testing that is being considered) has measurable coverage criteria defined. The coverage criteria can act effectively as key performance indicators (KPIs) to drive the activities that demonstrate achievement of software test objectives (see section 1.1.1).
+
+For example, for a mobile application, the test basis may include a list of requirements and a list of supported mobile devices. Each requirement is an element of the test basis. Each supported device is also an element of the test basis. The coverage criteria may require at least one test case for each element of the test basis. Once executed, the results of these tests tell stakeholders whether specified requirements are fulfilled and whether failures were observed on supported devices.
+
+ISO standard (ISO/IEC/IEEE 29119-2) has further information about test processes.
