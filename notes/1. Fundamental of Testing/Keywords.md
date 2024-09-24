@@ -223,3 +223,5 @@ It is very useful if the test basis (for any level or type of testing that is be
 For example, for a mobile application, the test basis may include a list of requirements and a list of supported mobile devices. Each requirement is an element of the test basis. Each supported device is also an element of the test basis. The coverage criteria may require at least one test case for each element of the test basis. Once executed, the results of these tests tell stakeholders whether specified requirements are fulfilled and whether failures were observed on supported devices.
 
 ISO standard (ISO/IEC/IEEE 29119-2) has further information about test processes.
+
+Page 18
