@@ -280,3 +280,30 @@ Test analysis includes the following major activities:
   - Inaccuracies
   - Contradictions
   - Superfluous statements
+  
+- Identifying features and sets of features to be tested
+- Defining and prioritizing test conditions for each feature based on analysis of the test basis, and considering functional, non-functional, and structural characteristics, other business and technical factors, and levels of risks
+- Capturing bi-directional traceability between each element of the test basis and the associated test conditions (see sections 1.4.3 and 1.4.4)
+
+The application of black-box, white-box, and experience-based test techniques can be useful in the process of test analysis (see chapter 4) to reduce the likelihood of omitting important test conditions and to define more precise and accurate test conditions.
+
+In some cases, test analysis produces test conditions which are to be used as test objectives in test charters. Test charters are typical work products in some types of experience-based testing (see section 4.4.2). When these test objectives are traceable to the test basis, coverage achieved during such experience-based testing can be measured.
+
+The identification of defects during test analysis is an important potential benefit, especially where no other review process is being used and/or the test process is closely connected with the review process. Such test analysis activities not only verify whether the requirements are consistent, properly expressed, and complete, but also validate whether the requirements properly capture customer, user, and other stakeholder needs. For example, techniques such as behavior driven development (BDD) and acceptance test driven development (ATDD), which involve generating test conditions and test cases from user stories and acceptance criteria prior to coding. These techniques also verify, validate, and detect defects in the user stories and acceptance criteria (see ISTQB-CTFL-AT).
+
+---
+
+### Test Design
+
+During test design, the test conditions are elaborated into high-level test cases, sets of high-level test cases, and other testware. So, test analysis answers the question “what to test?” while test design answers the question “how to test?”
+
+Test design includes the following major activities:
+- Designing and prioritizing test cases and sets of test cases
+- Identifying necessary test data to support test conditions and test cases
+- Designing the test environment and identifying any required infrastructure and tools
+- Capturing bi-directional traceability between the test basis, test conditions, and test cases (see section 1.4.4)
+
+The elaboration of test conditions into test cases and sets of test cases during test design often involves using test techniques (see chapter 4).
+
+As with test analysis, test design may also result in the identification of similar types of defects in the test basis. Also, as with test analysis, the identification of defects during test design is an important potential benefit.
+
