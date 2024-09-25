@@ -307,3 +307,4 @@ The elaboration of test conditions into test cases and sets of test cases during
 
 As with test analysis, test design may also result in the identification of similar types of defects in the test basis. Also, as with test analysis, the identification of defects during test design is an important potential benefit.
 
+PAGE 21
