@@ -307,4 +307,68 @@ The elaboration of test conditions into test cases and sets of test cases during
 
 As with test analysis, test design may also result in the identification of similar types of defects in the test basis. Also, as with test analysis, the identification of defects during test design is an important potential benefit.
 
-PAGE 21
+### Test Implementation
+
+During test implementation, the testware necessary for test execution is created and/or completed, including sequencing the test cases into test procedures. So, test design answers the question “how to test?” while test implementation answers the question “do we now have everything in place to run the tests?”
+
+Test implementation includes the following major activities:
+
+- Developing and prioritizing test procedures, and, potentially, creating automated test scripts
+- Creating test suites from the test procedures and (if any) automated test scripts
+- Arranging the test suites within a test execution schedule in a way that results in efficient test execution (see section 5.2.4)
+- Building the test environment (including, potentially, test harnesses, service virtualization, simulators, and other infrastructure items) and verifying that everything needed has been set up correctly
+- Preparing test data and ensuring it is properly loaded in the test environment
+- Verifying and updating bi-directional traceability between the test basis, test conditions, test cases, test procedures, and test suites (see section 1.4.4)
+
+Test design and test implementation tasks are often combined.
+
+In exploratory testing and other types of experience-based testing, test design and implementation may occur, and may be documented, as part of test execution. Exploratory testing may be based on test charters (produced as part of test analysis), and exploratory tests are executed immediately as they are designed and implemented (see section 4.4.2).
+
+---
+
+### Test Execution
+
+During test execution, test suites are run in accordance with the test execution schedule. Test execution includes the following major activities:
+
+- Recording the IDs and versions of the test item(s) or test object, test tool(s), and testware
+- Executing tests either manually or by using test execution tools
+- Comparing actual results with expected results
+- Analyzing anomalies to establish their likely causes (e.g., failures may occur due to defects in the code, but false positives also may occur, see section 1.2.3)
+- Reporting defects based on the failures observed (see section 5.6)
+- Logging the outcome of test execution (e.g., pass, fail, blocked)
+- Repeating test activities either as a result of action taken for an anomaly, or as part of the planned testing (e.g., execution of a corrected test, confirmation testing, and/or regression testing)
+- Verifying and updating bi-directional traceability between the test basis, test conditions, test cases, test procedures, and test results
+
+---
+
+### Test Completion
+
+Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information. Test completion activities occur at project milestones such as when a software system is released, a test project is completed (or cancelled), an Agile project iteration is finished, a test level is completed, or a maintenance release has been completed.
+
+Test completion includes the following major activities:
+
+- Checking whether all defect reports are closed, entering change requests or product backlog items for any defects that remain unresolved at the end of test execution
+- Creating a test summary report to be communicated to stakeholders
+- Finalizing and archiving the test environment, the test data, the test infrastructure, and other testware for later reuse
+- Handing over the testware to the maintenance teams, other project teams, and/or other stakeholders who could benefit from its use
+- Analyzing lessons learned from the completed test activities to determine changes needed for future iterations, releases, and projects
+- Using the information gathered to improve test process maturity
+
+---
+### Test Work Products
+
+Test work products are created as part of the test process. Just as there is significant variation in the way that organizations implement the test process, there is also significant variation in the types of work products created during that process, in the ways those work products are organized and managed, and in the names used for those work products. This syllabus adheres to the test process outlined above, and the work products described in this syllabus and in the ISTQB® Glossary. The ISO standard (ISO/IEC/IEEE 29119-3) may also serve as a guideline for test work products.
+
+Many of the test work products described in this section can be captured and managed using test management tools and defect management tools (see chapter 6).
+
+#### Test Planning Work Products
+
+Test planning work products typically include one or more test plans. The test plan includes information about the test basis, to which the other test work products will be related via traceability information (see below and section 1.4.4), as well as exit criteria (or definition of done) which will be used during test monitoring and control. Test plans are described in section 5.2.
+
+#### Test Monitoring and Control Work Products
+
+Test monitoring and control work products typically include various types of test reports, including test progress reports produced on an ongoing and/or a regular basis, and test summary reports produced at various completion milestones. All test reports should provide audience-relevant details about the test progress as of the date of the report, including summarizing the test execution results once those become available.
+
+Test monitoring and control work products should also address project management concerns, such as task completion, resource allocation and usage, and effort.
+
+Test monitoring and control, and the work products created during these activities, are further explained in section 5.3 of this syllabus.
