@@ -412,3 +412,41 @@ The test data serve to assign concrete values to the inputs and expected results
 In exploratory testing, some test design and implementation work products may be created during test execution, though the extent to which exploratory tests (and their traceability to specific elements of the test basis) are documented may vary significantly.
 
 Test conditions defined in test analysis may be further refined in test implementation.
+
+### Test Execution Work Products
+
+Test execution work products include:
+
+- Documentation of the status of individual test cases or test procedures (e.g., ready to run, pass, fail, blocked, deliberately skipped, etc.)
+- Defect reports (see section 5.6)
+- Documentation about which test item(s), test object(s), test tools, and testware were involved in the testing
+
+Ideally, once test execution is complete, the status of each element of the test basis can be determined and reported via bi-directional traceability with the associated test procedure(s). For example, we can say which requirements have passed all planned tests, which requirements have failed tests and/or have defects associated with them, and which requirements have planned tests still waiting to be run. This enables verification that the coverage criteria have been met, and allows for reporting test results in terms that are understandable to stakeholders.
+
+---
+
+### Test Completion Work Products
+
+Test completion work products include:
+
+- Test summary reports
+- Action items for improvement of subsequent projects or iterations
+- Change requests or product backlog items
+- Finalized testware
+
+---
+
+### Traceability Between the Test Basis and Test Work Products
+
+As mentioned in section 1.4.3, test work products and the names of those work products vary significantly. Regardless of these variations, in order to implement effective test monitoring and control, it is important to establish and maintain traceability throughout the test process between each element of the test basis and the various test work products associated with that element.
+
+In addition to the evaluation of test coverage, good traceability supports:
+
+- Analyzing the impact of changes
+- Making testing auditable
+- Meeting IT governance criteria
+- Improving the understandability of test progress reports and test summary reports to include the status of elements of the test basis (e.g., requirements that passed their tests, requirements that failed their tests, and requirements that have pending tests)
+- Relating the technical aspects of testing to stakeholders in terms that they can understand
+- Providing information to assess product quality, process capability, and project progress against business goals
+
+Some test management tools provide test work product models that match part or all of the test work products outlined in this section. Some organizations build their own management systems to organize the work products and provide the information traceability they require.
