@@ -372,3 +372,81 @@ Test monitoring and control work products typically include various types of tes
 Test monitoring and control work products should also address project management concerns, such as task completion, resource allocation and usage, and effort.
 
 Test monitoring and control, and the work products created during these activities, are further explained in section 5.3 of this syllabus.
+
+### Test Analysis Work Products
+
+Test analysis work products include defined and prioritized test conditions, each of which is ideally bi-directionally traceable to the specific element(s) of the test basis it covers. For exploratory testing, test analysis may involve the creation of test charters. Test analysis may also result in the discovery and reporting of defects in the test basis.
+
+---
+
+### Test Design Work Products
+
+Test design results in test cases and sets of test cases to exercise the test conditions defined in test analysis. It is often a good practice to design high-level test cases, without concrete values for input data and expected results. Such high-level test cases are reusable across multiple test cycles with different concrete data, while still adequately documenting the scope of the test case. Ideally, each test case is bi-directionally traceable to the test condition(s) it covers.
+
+Test design also results in:
+
+- The design and/or identification of the necessary test data
+- The design of the test environment
+- The identification of infrastructure and tools
+
+Though the extent to which these results are documented varies significantly.
+
+---
+
+### Test Implementation Work Products
+
+Test implementation work products include:
+
+- Test procedures and the sequencing of those test procedures
+- Test suites
+- A test execution schedule
+
+Ideally, once test implementation is complete, achievement of coverage criteria established in the test plan can be demonstrated via bi-directional traceability between test procedures and specific elements of the test basis, through the test cases and test conditions.
+
+In some cases, test implementation involves creating work products using or used by tools, such as service virtualization and automated test scripts.
+
+Test implementation may also result in the creation and verification of test data and the test environment. The completeness of the documentation of the data and/or environment verification results may vary significantly.
+
+The test data serve to assign concrete values to the inputs and expected results of test cases. Such concrete values, together with explicit directions about the use of the concrete values, turn high-level test cases into executable low-level test cases. The same high-level test case may use different test data when executed on different releases of the test object. The concrete expected results which are associated with concrete test data are identified by using a test oracle.
+
+In exploratory testing, some test design and implementation work products may be created during test execution, though the extent to which exploratory tests (and their traceability to specific elements of the test basis) are documented may vary significantly.
+
+Test conditions defined in test analysis may be further refined in test implementation.
+
+### Test Execution Work Products
+
+Test execution work products include:
+
+- Documentation of the status of individual test cases or test procedures (e.g., ready to run, pass, fail, blocked, deliberately skipped, etc.)
+- Defect reports (see section 5.6)
+- Documentation about which test item(s), test object(s), test tools, and testware were involved in the testing
+
+Ideally, once test execution is complete, the status of each element of the test basis can be determined and reported via bi-directional traceability with the associated test procedure(s). For example, we can say which requirements have passed all planned tests, which requirements have failed tests and/or have defects associated with them, and which requirements have planned tests still waiting to be run. This enables verification that the coverage criteria have been met, and allows for reporting test results in terms that are understandable to stakeholders.
+
+---
+
+### Test Completion Work Products
+
+Test completion work products include:
+
+- Test summary reports
+- Action items for improvement of subsequent projects or iterations
+- Change requests or product backlog items
+- Finalized testware
+
+---
+
+### Traceability Between the Test Basis and Test Work Products
+
+As mentioned in section 1.4.3, test work products and the names of those work products vary significantly. Regardless of these variations, in order to implement effective test monitoring and control, it is important to establish and maintain traceability throughout the test process between each element of the test basis and the various test work products associated with that element.
+
+In addition to the evaluation of test coverage, good traceability supports:
+
+- Analyzing the impact of changes
+- Making testing auditable
+- Meeting IT governance criteria
+- Improving the understandability of test progress reports and test summary reports to include the status of elements of the test basis (e.g., requirements that passed their tests, requirements that failed their tests, and requirements that have pending tests)
+- Relating the technical aspects of testing to stakeholders in terms that they can understand
+- Providing information to assess product quality, process capability, and project progress against business goals
+
+Some test management tools provide test work product models that match part or all of the test work products outlined in this section. Some organizations build their own management systems to organize the work products and provide the information traceability they require.
