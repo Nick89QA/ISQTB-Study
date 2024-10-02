@@ -232,3 +232,100 @@ Examples of typical defects and failures for system integration testing include:
 - Failures in communication between systems
 - Unhandled or improperly handled communication failures between systems
 
+• Incorrect assumptions about the meaning, units, or boundaries of the data being passed between systems
+• Failure to comply with mandatory security regulations
+
+**Specific approaches and responsibilities:**
+
+Component integration tests and system integration tests should concentrate on the integration itself. For example, if integrating module A with module B, tests should focus on the communication between the modules, not the functionality of the individual modules, as that should have been covered during component testing. If integrating system X with system Y, tests should focus on the communication between the systems, not the functionality of the individual systems, as that should have been covered during system testing. Both functional, non-functional, and structural test types are applicable.
+
+Component integration testing is often the responsibility of developers, whereas system integration testing is generally the responsibility of testers. Ideally, testers performing system integration testing should understand the system architecture and should have influenced integration planning.
+
+If integration tests and the integration strategy are planned before components or systems are built, those components or systems can be built in the order required for the most efficient testing. Systematic integration strategies may be based on the system architecture (e.g., top-down or bottom-up), functional tasks, transaction processing sequences, or other aspects of the system or components. To simplify defect isolation and detect defects early, integration should typically be incremental (i.e., a small number of components or systems at a time) rather than using the “big bang” approach (i.e., integrating all components or systems in one single step). A risk analysis of the most complex interfaces can help focus the integration testing.
+
+The larger the scope of integration, the more difficult it becomes to isolate defects to a specific component or system, leading to increased risk and additional time for troubleshooting. This is one reason continuous integration, where software is integrated on a component-by-component basis (i.e., functional integration), has become a common practice. Continuous integration often includes automated regression testing, ideally at multiple test levels.
+
+### 2.2.3 System Testing
+
+**Objectives of system testing:**
+
+System testing focuses on the behavior and capabilities of a complete system or product, often considering the end-to-end tasks the system can perform and the non-functional behaviors it exhibits while performing those tasks. Objectives of system testing include:
+- Reducing risk
+- Verifying whether the functional and non-functional behaviors of the system are as designed and specified
+- Validating that the system is complete and will work as expected
+- Building confidence in the quality of the system as a whole
+- Finding defects
+- Preventing defects from escaping to higher test levels or production
+
+For certain systems, verifying data quality may also be an objective. As with component testing and integration testing, automated system regression tests provide confidence that changes have not broken existing features or end-to-end capabilities. System testing often produces information that stakeholders use to make release decisions. System testing may also satisfy legal or regulatory requirements or standards.
+
+The test environment should ideally correspond to the final target or production environment.
+
+**Test basis:**
+
+Examples of work products that can be used as a test basis for system testing include:
+- System and software requirement specifications (functional and non-functional)
+- Risk analysis reports
+- Use cases
+- Epics and user stories
+- Models of system behavior
+- State diagrams
+- System and user manuals
+
+**Test objects:**
+
+Typical test objects for system testing include:
+- Applications
+- Hardware/software systems
+- Operating systems
+- System under test (SUT)
+- System configuration and configuration data
+
+**Typical defects and failures:**
+
+Examples of typical defects and failures for system testing include:
+- Incorrect calculations
+- Incorrect or unexpected system functional or non-functional behavior
+- Incorrect control and/or data flows within the system
+- Failure to properly and completely carry out end-to-end functional tasks
+- Failure of the system to work properly in the system environment(s)
+- Failure of the system to work as described in system and user manuals
+
+**Specific approaches and responsibilities:**
+
+System testing should focus on the overall, end-to-end behavior of the system as a whole, both functional and non-functional. System testing should use the most appropriate techniques for the aspect(s) of the system to be tested. For example, a decision table may be created to verify whether functional behavior is as described in business rules.
+
+System testing is typically carried out by independent testers who rely heavily on specifications. Defects in specifications (e.g., missing user stories, incorrectly stated business requirements, etc.) can lead to misunderstandings or disagreements about expected system behavior. Such situations can cause false positives and false negatives, which waste time and reduce defect detection effectiveness. Early involvement of testers in user story refinement or static testing activities, such as reviews, helps reduce the incidence of such situations.
+
+### 2.2.4 Acceptance Testing
+
+**Objectives of acceptance testing:**
+
+Acceptance testing, like system testing, typically focuses on the behavior and capabilities of a whole system or product. Objectives of acceptance testing include:
+- Establishing confidence in the quality of the system as a whole
+- Validating that the system is complete and will work as expected
+- Verifying that functional and non-functional behaviors of the system are as specified
+
+Acceptance testing may produce information to assess the system’s readiness for deployment and use by the customer (end-user). Defects may be found during acceptance testing, but finding defects is often not an objective, and finding a significant number of defects during acceptance testing may be considered a major project risk. Acceptance testing may also satisfy legal or regulatory requirements or standards.
+
+Common forms of acceptance testing include the following:
+- **User acceptance testing**
+- **Operational acceptance testing**
+- **Contractual and regulatory acceptance testing**
+- **Alpha and beta testing**
+
+Each of these forms is described in the following subsections:
+
+#### User Acceptance Testing (UAT)
+
+User acceptance testing typically focuses on validating the fitness for use of the system by intended users in a real or simulated operational environment. The main objective is building confidence that users can use the system to meet their needs, fulfill requirements, and perform business processes with minimal difficulty, cost, and risk.
+
+#### Operational Acceptance Testing (OAT)
+
+Operational acceptance testing is usually performed by operations or systems administration staff in a (simulated) production environment. The tests focus on operational aspects and may include:
+- Testing of backup and restore
+- Installing, uninstalling, and upgrading
+- Disaster recovery
+- User management
+- Maintenance tasks
+
