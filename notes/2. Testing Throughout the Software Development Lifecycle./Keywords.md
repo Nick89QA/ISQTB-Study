@@ -100,4 +100,135 @@ Unlike sequential models, these models deliver usable software quickly but may t
 The choice of a lifecycle model depends on the project and product characteristics, business priorities, and risks. For instance, developing a minor internal system is different from developing a safety-critical system.
 
 Teams may need to adapt test levels and activities based on project needs. For example, integrating a COTS product into a larger system may require interoperability testing at the system integration level.
-Page 29
+
+(e.g., integration to the infrastructure and other systems) and at the acceptance test level (functional and non-functional, along with user acceptance testing and operational acceptance testing). See section 2.2 for a discussion of test levels and section 2.3 for a discussion of test types.
+
+In addition, software development lifecycle models themselves may be combined. For example, a V-model may be used for the development and testing of the backend systems and their integrations, while an Agile development model may be used to develop and test the front-end user interface (UI) and functionality. Prototyping may be used early in a project, with an incremental development model adopted once the experimental phase is complete.
+
+**Internet of Things (IoT) systems**, which consist of many different objects, such as devices, products, and services, typically apply separate software development lifecycle models for each object. This presents a particular challenge for the development of Internet of Things system versions. Additionally, the software development lifecycle of such objects places stronger emphasis on the later phases of the software development lifecycle after they have been introduced to operational use (e.g., operate, update, and decommission phases).
+
+Reasons why software development models must be adapted to the context of project and product characteristics include:
+- Differences in product risks of systems (complex or simple project)
+- Many business units involved in a project or program (combination of sequential and agile development)
+- Short time to deliver a product to the market (merging of test levels and/or integration of test types into test levels)
+
+### 2.2 Test Levels
+
+**Test levels** are groups of test activities that are organized and managed together. Each test level is an instance of the test process, consisting of the activities described in section 1.4, performed in relation to software at a given level of development, from individual units or components to complete systems or, where applicable, systems of systems. Test levels are related to other activities within the software development lifecycle.
+
+The test levels used in this syllabus are:
+- Component testing
+- Integration testing
+- System testing
+- Acceptance testing
+
+Test levels are characterized by the following attributes:
+- Specific objectives
+- Test basis, referenced to derive test cases
+- Test object (i.e., what is being tested)
+- Typical defects and failures
+- Specific approaches and responsibilities
+
+For every test level, a suitable test environment is required. For example, in **acceptance testing**, a production-like test environment is ideal, while in **component testing**, the developers typically use their own development environment.
+
+#### 2.2.1 Component Testing
+
+**Objectives of component testing:**
+
+Component testing (also known as unit or module testing) focuses on components that are separately testable. Objectives of component testing include:
+- Reducing risk
+- Verifying whether the functional and non-functional behaviors of the component are as designed and specified
+- Building confidence in the component’s quality
+- Finding defects in the component
+- Preventing defects from escaping to higher test levels
+
+In some cases, especially in incremental and iterative development models (e.g., Agile), where code changes are ongoing, automated component regression tests play a key role in building confidence that changes have not broken existing components.
+
+Component testing is often done in isolation from the rest of the system, depending on the software development lifecycle model and the system, which may require mock objects, service virtualization, harnesses, stubs, and drivers. Component testing may cover functionality (e.g., correctness of calculations), non-functional characteristics (e.g., searching for memory leaks), and structural properties (e.g., decision testing).
+
+**Test basis:**
+
+Examples of work products that can be used as a test basis for component testing include:
+- Detailed design
+- Code
+- Data model
+- Component specifications
+
+**Test objects:**
+
+Typical test objects for component testing include:
+- Components, units, or modules
+- Code and data structures
+- Classes
+- Database modules
+
+**Typical defects and failures:**
+
+Examples of typical defects and failures for component testing include:
+- Incorrect functionality (e.g., not as described in design specifications)
+- Data flow problems
+- Incorrect code and logic
+
+Defects are typically fixed as soon as they are found, often with no formal defect management. However, when developers do report defects, this provides important information for root cause analysis and process improvement.
+
+**Specific approaches and responsibilities:**
+
+Component testing is usually performed by the developer who wrote the code, but it at least requires access to the code being tested. Developers may alternate between component development and defect fixing. Developers will often write and execute tests after having written the code for a component. However, in Agile development especially, writing automated component test cases may precede writing application code.
+
+For example, consider test-driven development (TDD). **Test-driven development** is highly iterative and based on cycles of developing automated test cases, then building and integrating small pieces of code, then executing the component tests, correcting any issues, and refactoring the code. This process continues until the component has been completely built and all component tests are passing. Test-driven development is an example of a test-first approach. While TDD originated in eXtreme Programming (XP), it has spread to other forms of Agile and also to sequential lifecycles (see ISTQB-CTFL-AT).
+
+### 2.2.2 Integration Testing
+
+**Objectives of integration testing:**
+
+Integration testing focuses on interactions between components or systems. Objectives of integration testing include:
+- Reducing risk
+- Verifying whether the functional and non-functional behaviors of the interfaces are as designed and specified
+- Building confidence in the quality of the interfaces
+- Finding defects (which may be in the interfaces themselves or within the components or systems)
+- Preventing defects from escaping to higher test levels
+
+As with component testing, in some cases automated integration regression tests provide confidence that changes have not broken existing interfaces, components, or systems.
+
+There are two different levels of integration testing described in this syllabus, which may be carried out on test objects of varying size as follows:
+- **Component integration testing** focuses on the interactions and interfaces between integrated components. Component integration testing is performed after component testing, and is generally automated. In iterative and incremental development, component integration tests are usually part of the continuous integration process.
+- **System integration testing** focuses on the interactions and interfaces between systems, packages, and microservices. System integration testing can also cover interactions with, and interfaces provided by, external organizations (e.g., web services). In this case, the developing organization does not control the external interfaces, which can create various challenges for testing (e.g., ensuring that test-blocking defects in the external organization’s code are resolved, arranging for test environments, etc.). System integration testing may be done after system testing or in parallel with ongoing system test activities (in both sequential development and iterative and incremental development).
+
+**Test basis:**
+
+Examples of work products that can be used as a test basis for integration testing include:
+- Software and system design
+- Sequence diagrams
+- Interface and communication protocol specifications
+- Use cases
+- Architecture at component or system level
+- Workflows
+- External interface definitions
+
+**Test objects:**
+
+Typical test objects for integration testing include:
+- Subsystems
+- Databases
+- Infrastructure
+- Interfaces
+- APIs
+- Microservices
+
+**Typical defects and failures:**
+
+Examples of typical defects and failures for component integration testing include:
+- Incorrect data, missing data, or incorrect data encoding
+- Incorrect sequencing or timing of interface calls
+- Interface mismatch
+- Failures in communication between components
+- Unhandled or improperly handled communication failures between components
+- Incorrect assumptions about the meaning, units, or boundaries of the data being passed between components
+
+Examples of typical defects and failures for system integration testing include:
+- Inconsistent message structures between systems
+- Incorrect data, missing data, or incorrect data encoding
+- Interface mismatch
+- Failures in communication between systems
+- Unhandled or improperly handled communication failures between systems
+
