@@ -383,3 +383,31 @@ Examples of typical defects for any form of acceptance testing include:
 - Business rules not implemented correctly
 - System failing to meet contractual or regulatory requirements
 - Non-functional failures, such as security vulnerabilities, inadequate performance efficiency under high loads, or improper operation on a supported platform
+
+### Specific Approaches and Responsibilities
+
+Acceptance testing is typically the responsibility of the customers, business users, product owners, or system operators, though other stakeholders may be involved as well.
+
+Acceptance testing is often considered the final test level in a sequential development lifecycle but may also occur at other times, such as:
+- Acceptance testing of a COTS product may happen during installation or integration.
+- Acceptance testing of a new functional enhancement may occur before system testing.
+
+In iterative development, project teams may perform various forms of acceptance testing during and at the end of each iteration, such as verifying new features against acceptance criteria or validating that the features meet users’ needs. Alpha and beta tests may also occur at the end of an iteration, after completing an iteration, or after several iterations. User acceptance tests, operational acceptance tests, regulatory acceptance tests, and contractual acceptance tests may also occur at the end of iterations or after multiple iterations.
+
+## 2.3 Test Types
+
+A test type is a group of test activities designed to evaluate specific characteristics of a software system or its components based on particular test objectives. Test objectives may include:
+- Evaluating **functional quality characteristics**, such as completeness, correctness, and appropriateness
+- Evaluating **non-functional quality characteristics**, such as reliability, performance efficiency, security, compatibility, and usability
+- Evaluating the structure or architecture of the system or component to ensure correctness, completeness, and adherence to specifications
+- Evaluating the effects of changes, such as confirming defect fixes (confirmation testing) and checking for unintended changes caused by software or environmental changes (regression testing)
+
+### 2.3.1 Functional Testing
+
+**Functional testing** involves testing the functions that a system should perform. Functional requirements may be specified in documents such as business requirements, epics, user stories, use cases, or functional specifications, or they may be undocumented. Functional testing evaluates "what" the system should do.
+
+Functional tests should be performed at all test levels. For example, tests for components may be based on component specifications, though the focus varies across levels.
+
+Since functional testing focuses on the software's behavior, **black-box techniques** can be used to derive test conditions and test cases for the system’s functionality (see section 4.2).
+
+**Functional coverage** measures the thoroughness of functional testing. It indicates the extent to which system functionality has been exercised by tests and is expressed as a percentage of the elements covered. For example, traceability between tests and functional requirements can help calculate the percentage of requirements covered by tests, potentially identifying coverage gaps.
