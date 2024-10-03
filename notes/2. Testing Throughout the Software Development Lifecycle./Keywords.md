@@ -364,3 +364,22 @@ For **operational acceptance testing**, specific work products used as a test ba
 - Performance targets
 - Database packages
 - Security standards or regulations
+
+### Typical Test Objects
+
+Common test objects for any form of acceptance testing include:
+- The system under test (SUT)
+- System configuration and configuration data
+- Business processes for a fully integrated system
+- Recovery systems and hot sites (for business continuity and disaster recovery testing)
+- Operational and maintenance processes
+- Forms and reports
+- Existing and converted production data
+
+### Typical Defects and Failures
+
+Examples of typical defects for any form of acceptance testing include:
+- System workflows that do not meet business or user requirements
+- Business rules not implemented correctly
+- System failing to meet contractual or regulatory requirements
+- Non-functional failures, such as security vulnerabilities, inadequate performance efficiency under high loads, or improper operation on a supported platform
