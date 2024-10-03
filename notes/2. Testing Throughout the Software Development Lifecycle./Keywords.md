@@ -329,3 +329,38 @@ Operational acceptance testing is usually performed by operations or systems adm
 - User management
 - Maintenance tasks
 
+
+**Regulatory acceptance testing** ensures compliance with regulations such as governmental, legal, or safety standards. It is often performed by users or independent testers, sometimes with the results witnessed or audited by regulatory agencies.
+
+The main objective of contractual and regulatory acceptance testing is to ensure that contractual or regulatory compliance has been achieved.
+
+### Alpha and Beta Testing
+
+**Alpha and beta testing** are typically conducted by developers of commercial off-the-shelf (COTS) software to gather feedback from potential or existing users, customers, and/or operators before the product is released to the market.
+
+- **Alpha testing** is performed at the developer's site, typically by potential or existing customers, operators, or an independent test team (but not by the development team itself).
+- **Beta testing** is conducted by potential or existing customers and operators in their own environments. Beta testing can occur after alpha testing or independently.
+
+The objectives of alpha and beta testing are to build confidence among potential customers and operators that they can use the system under normal conditions and in operational environments with minimal difficulty, cost, and risk. Another objective is to detect defects related to the conditions and environments in which the system will be used, especially if those conditions are difficult for the development team to replicate.
+
+### Test Basis
+
+Examples of work products that can serve as a test basis for any form of acceptance testing include:
+- Business processes
+- User or business requirements
+- Regulations, legal contracts, and standards
+- Use cases and/or user stories
+- System requirements
+- System or user documentation
+- Installation procedures
+- Risk analysis reports
+
+For **operational acceptance testing**, specific work products used as a test basis may include:
+- Backup and restore procedures
+- Disaster recovery procedures
+- Non-functional requirements
+- Operations documentation
+- Deployment and installation instructions
+- Performance targets
+- Database packages
+- Security standards or regulations
