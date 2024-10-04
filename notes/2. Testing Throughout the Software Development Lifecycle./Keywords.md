@@ -329,3 +329,85 @@ Operational acceptance testing is usually performed by operations or systems adm
 - User management
 - Maintenance tasks
 
+
+**Regulatory acceptance testing** ensures compliance with regulations such as governmental, legal, or safety standards. It is often performed by users or independent testers, sometimes with the results witnessed or audited by regulatory agencies.
+
+The main objective of contractual and regulatory acceptance testing is to ensure that contractual or regulatory compliance has been achieved.
+
+### Alpha and Beta Testing
+
+**Alpha and beta testing** are typically conducted by developers of commercial off-the-shelf (COTS) software to gather feedback from potential or existing users, customers, and/or operators before the product is released to the market.
+
+- **Alpha testing** is performed at the developer's site, typically by potential or existing customers, operators, or an independent test team (but not by the development team itself).
+- **Beta testing** is conducted by potential or existing customers and operators in their own environments. Beta testing can occur after alpha testing or independently.
+
+The objectives of alpha and beta testing are to build confidence among potential customers and operators that they can use the system under normal conditions and in operational environments with minimal difficulty, cost, and risk. Another objective is to detect defects related to the conditions and environments in which the system will be used, especially if those conditions are difficult for the development team to replicate.
+
+### Test Basis
+
+Examples of work products that can serve as a test basis for any form of acceptance testing include:
+- Business processes
+- User or business requirements
+- Regulations, legal contracts, and standards
+- Use cases and/or user stories
+- System requirements
+- System or user documentation
+- Installation procedures
+- Risk analysis reports
+
+For **operational acceptance testing**, specific work products used as a test basis may include:
+- Backup and restore procedures
+- Disaster recovery procedures
+- Non-functional requirements
+- Operations documentation
+- Deployment and installation instructions
+- Performance targets
+- Database packages
+- Security standards or regulations
+
+### Typical Test Objects
+
+Common test objects for any form of acceptance testing include:
+- The system under test (SUT)
+- System configuration and configuration data
+- Business processes for a fully integrated system
+- Recovery systems and hot sites (for business continuity and disaster recovery testing)
+- Operational and maintenance processes
+- Forms and reports
+- Existing and converted production data
+
+### Typical Defects and Failures
+
+Examples of typical defects for any form of acceptance testing include:
+- System workflows that do not meet business or user requirements
+- Business rules not implemented correctly
+- System failing to meet contractual or regulatory requirements
+- Non-functional failures, such as security vulnerabilities, inadequate performance efficiency under high loads, or improper operation on a supported platform
+
+### Specific Approaches and Responsibilities
+
+Acceptance testing is typically the responsibility of the customers, business users, product owners, or system operators, though other stakeholders may be involved as well.
+
+Acceptance testing is often considered the final test level in a sequential development lifecycle but may also occur at other times, such as:
+- Acceptance testing of a COTS product may happen during installation or integration.
+- Acceptance testing of a new functional enhancement may occur before system testing.
+
+In iterative development, project teams may perform various forms of acceptance testing during and at the end of each iteration, such as verifying new features against acceptance criteria or validating that the features meet users’ needs. Alpha and beta tests may also occur at the end of an iteration, after completing an iteration, or after several iterations. User acceptance tests, operational acceptance tests, regulatory acceptance tests, and contractual acceptance tests may also occur at the end of iterations or after multiple iterations.
+
+## 2.3 Test Types
+
+A test type is a group of test activities designed to evaluate specific characteristics of a software system or its components based on particular test objectives. Test objectives may include:
+- Evaluating **functional quality characteristics**, such as completeness, correctness, and appropriateness
+- Evaluating **non-functional quality characteristics**, such as reliability, performance efficiency, security, compatibility, and usability
+- Evaluating the structure or architecture of the system or component to ensure correctness, completeness, and adherence to specifications
+- Evaluating the effects of changes, such as confirming defect fixes (confirmation testing) and checking for unintended changes caused by software or environmental changes (regression testing)
+
+### 2.3.1 Functional Testing
+
+**Functional testing** involves testing the functions that a system should perform. Functional requirements may be specified in documents such as business requirements, epics, user stories, use cases, or functional specifications, or they may be undocumented. Functional testing evaluates "what" the system should do.
+
+Functional tests should be performed at all test levels. For example, tests for components may be based on component specifications, though the focus varies across levels.
+
+Since functional testing focuses on the software's behavior, **black-box techniques** can be used to derive test conditions and test cases for the system’s functionality (see section 4.2).
+
+**Functional coverage** measures the thoroughness of functional testing. It indicates the extent to which system functionality has been exercised by tests and is expressed as a percentage of the elements covered. For example, traceability between tests and functional requirements can help calculate the percentage of requirements covered by tests, potentially identifying coverage gaps.
