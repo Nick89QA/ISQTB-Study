@@ -411,3 +411,70 @@ Functional tests should be performed at all test levels. For example, tests for 
 Since functional testing focuses on the software's behavior, **black-box techniques** can be used to derive test conditions and test cases for the system’s functionality (see section 4.2).
 
 **Functional coverage** measures the thoroughness of functional testing. It indicates the extent to which system functionality has been exercised by tests and is expressed as a percentage of the elements covered. For example, traceability between tests and functional requirements can help calculate the percentage of requirements covered by tests, potentially identifying coverage gaps.
+
+### Functional Test Design and Execution
+Functional test design and execution may require specialized skills or knowledge, such as an understanding of the specific business problem the software addresses (e.g., geological modeling software for the oil and gas industries).
+
+### 2.3.2 Non-functional Testing
+Non-functional testing evaluates system characteristics such as usability, performance efficiency, or security. According to the ISO standard (ISO/IEC 25010), non-functional testing assesses "how well" a system behaves.
+
+Contrary to common perceptions, non-functional testing should be done at all test levels and as early as possible. Discovering non-functional defects late in the project can severely affect its success.
+
+Black-box techniques (see section 4.2) can be applied to derive test conditions and cases for non-functional testing. For example, boundary value analysis can define stress conditions for performance tests.
+
+The thoroughness of non-functional testing can be measured by **non-functional coverage**, expressed as a percentage of the elements covered by tests. For instance, traceability between tests and supported devices for a mobile application can calculate the percentage of devices covered by compatibility testing, helping to identify coverage gaps.
+
+Non-functional test design and execution may involve special expertise, such as knowledge of potential design weaknesses (e.g., security vulnerabilities in specific programming languages) or user base personas (e.g., users of healthcare facility management systems).
+
+For more information on testing non-functional quality characteristics, refer to ISTQB-CTAL-TA, ISTQB-CTAL-TTA, ISTQB-CTAL-SEC, and other ISTQB® specialist modules.
+
+### 2.3.3 White-box Testing
+White-box testing is based on the system's internal structure or implementation, including code, architecture, workflows, and/or data flows (see section 4.3).
+
+**Structural coverage** measures white-box testing thoroughness. It indicates the extent to which structural elements have been exercised by tests, expressed as a percentage. At the component level, code coverage might be measured by the percentage of executable statements tested. At the component integration level, coverage might be measured by the percentage of interfaces exercised by tests.
+
+White-box test design and execution may require expertise in coding, data storage (e.g., database queries), and understanding coverage tools.
+
+### 2.3.4 Change-related Testing
+When a system undergoes changes, either to fix defects or introduce new functionality, testing ensures that changes work correctly and have not caused unforeseen issues.
+
+- **Confirmation testing**: After fixing a defect, the failed test cases (due to the defect) should be re-executed in the updated software version. The steps to reproduce the original failure should also be re-executed.
+- **Regression testing**: Changes to one part of the code can affect other parts, even in different components or systems. Regression testing helps detect these unintended side effects.
+
+Change-related testing (confirmation and regression testing) occurs at all test levels, especially in iterative and incremental development (e.g., Agile). Frequent changes in features, refactoring, or updates, as seen in IoT systems, increase the need for confirmation and regression testing. **Regression test suites** should be automated early to ensure thorough and efficient testing.
+
+### 2.3.5 Test Types and Test Levels
+Any test type (functional, non-functional, white-box, change-related) can be executed at any test level. Below are examples for a banking application across different test levels:
+
+- **Functional tests**:
+    - **Component testing**: Tests the component that calculates compound interest.
+    - **Component integration testing**: Verifies how account data is passed from the UI to the business logic.
+    - **System testing**: Tests how account holders apply for a line of credit.
+    - **System integration testing**: Tests the external microservice used to check credit scores.
+    - **Acceptance testing**: Validates the banker’s process for approving or declining credit applications.
+
+- **Non-functional tests**:
+    - **Component testing**: Measures CPU cycles required for complex interest calculations.
+    - **Component integration testing**: Security tests for buffer overflow vulnerabilities.
+    - **System testing**: Tests browser and mobile device compatibility.
+    - **System integration testing**: Evaluates system robustness when the credit score microservice fails.
+    - **Acceptance testing**: Assesses accessibility of the credit processing interface for users with disabilities.
+
+- **White-box tests**:
+    - **Component testing**: Ensures complete statement and decision coverage for financial calculation components.
+    - **Component integration testing**: Tests how screens pass data to the business logic.
+    - **System testing**: Covers sequences of web pages during a credit line application.
+    - **System integration testing**: Tests all inquiry types sent to the credit score microservice.
+    - **Acceptance testing**: Covers supported financial data file structures for bank-to-bank transfers.
+
+- **Change-related tests**:
+    - **Component testing**: Automated regression tests for each component, run within the continuous integration framework.
+    - **Component integration testing**: Tests interface fixes in the code repository.
+    - **System testing**: Re-executes tests for workflows when any screen in the workflow changes.
+    - **System integration testing**: Daily re-execution of tests with the credit scoring microservice as part of continuous deployment.
+    - **Acceptance testing**: Re-executes all previously failed tests after a defect fix.
+
+While all test types don’t need to be represented at every level, applicable tests should be run at the earliest level possible.
+
+### 2.4 Maintenance Testing
+After deployment, software requires maintenance, either to fix defects found in production, add new functionality, or alter existing functionality. Maintenance also includes efforts to preserve or enhance non-functional quality characteristics of the system.
