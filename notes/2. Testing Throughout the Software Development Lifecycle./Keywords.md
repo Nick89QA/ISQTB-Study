@@ -478,3 +478,31 @@ While all test types don’t need to be represented at every level, applicable t
 
 ### 2.4 Maintenance Testing
 After deployment, software requires maintenance, either to fix defects found in production, add new functionality, or alter existing functionality. Maintenance also includes efforts to preserve or enhance non-functional quality characteristics of the system.
+
+Over its lifetime, especially with regard to performance efficiency, compatibility, reliability, security, and portability, software undergoes maintenance testing whenever changes are made. Maintenance testing is essential not only to verify the success of changes but also to check for side effects, such as regressions in the unchanged parts of the system, which is typically the majority. Maintenance includes both planned releases and unplanned releases (e.g., hot fixes).
+
+A maintenance release may require testing across multiple test levels and types, depending on the scope. Factors that influence the scope of maintenance testing include:
+- The degree of risk posed by the change (e.g., how the affected area interacts with other components or systems)
+- The size of the existing system
+- The size of the change
+
+### 2.4.1 Triggers for Maintenance
+Several triggers may initiate maintenance testing for both planned and unplanned changes:
+- **Modification**: Planned enhancements, corrective and emergency changes, changes in the operational environment (e.g., OS or database upgrades), COTS software upgrades, and patches for defects or vulnerabilities.
+- **Migration**: Moving the system to a different platform may require testing the new environment, the modified software, or data conversion (if data is migrated from another application).
+- **Retirement**: When a system is retired, tests may be required for data migration or archiving, especially if long data retention is necessary. Testing restore/retrieve procedures after long-term archiving may also be needed. Regression testing ensures that any functionality still in service continues to work.
+
+For **Internet of Things (IoT)** systems, maintenance testing may be triggered by the introduction of new or modified devices or services. This places a strong emphasis on integration testing at various levels (e.g., network and application) and on security, particularly for personal data.
+
+### 2.4.2 Impact Analysis for Maintenance
+Impact analysis is essential to evaluate the changes made in a maintenance release. It identifies both intended and unintended side effects, helping to determine the areas affected by the change. Impact analysis also helps identify changes needed in the test set. Regression testing may be required in these areas, especially if tests need to be updated to reflect the changes.
+
+Impact analysis can also be conducted **before** the change is made to assess potential consequences and decide whether the change should proceed.
+
+However, impact analysis can be challenging when:
+- Specifications (e.g., business requirements, user stories, architecture) are outdated or missing
+- Test cases are not documented or are outdated
+- Bi-directional traceability between tests and the test basis is not maintained
+- There is insufficient tool support
+- The involved team lacks domain or system knowledge
+- There was insufficient focus on the software's maintainability during its development
