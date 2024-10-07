@@ -86,3 +86,65 @@ Additionally, maintainability defects (e.g., poor modularization) are primarily 
 
 ### FL-3.2.5
 (K2) Explain the factors that contribute to a successful review.
+
+## 3.1 Static Testing Basics
+
+In contrast to **dynamic testing**, which requires software execution, **static testing** relies on the manual examination of work products (e.g., reviews) or tool-driven evaluation of code or other work products (e.g., static analysis). Static testing evaluates the code or work product without execution.
+
+**Static analysis** is crucial for **safety-critical systems** (e.g., aviation, medical, nuclear software) and is also essential in other contexts, like security testing. It's commonly used in **Agile**, **continuous delivery**, and **continuous deployment** processes.
+
+---
+
+### 3.1.1 Work Products That Can Be Examined by Static Testing
+
+Static testing (reviews and/or static analysis) can be applied to nearly any work product, including:
+- **Specifications** (business, functional, security requirements)
+- **Epics, user stories, and acceptance criteria**
+- **Architecture and design specifications**
+- **Code**
+- **Testware** (test plans, test cases, test procedures, automated test scripts)
+- **User guides**
+- **Web pages**
+- **Contracts, project plans, schedules, and budgets**
+- **Configuration and infrastructure setup**
+- **Models** (e.g., activity diagrams for Model-Based Testing)
+
+**Reviews** are applicable to any product that participants can read and understand. **Static analysis** is most efficient for formal structures (e.g., code, models) but can also be applied to natural language products (e.g., requirements checking for spelling, grammar, and readability).
+
+---
+
+### 3.1.2 Benefits of Static Testing
+
+Static testing provides multiple benefits when applied early in the software development lifecycle, allowing early detection of defects before dynamic testing. This approach results in cost-effective defect removal, especially compared to the cost of fixing defects found later in the lifecycle (e.g., post-deployment).
+
+Benefits include:
+- Detecting defects **before dynamic test execution**
+- Identifying defects **not easily found by dynamic testing**
+- **Preventing defects** in design or coding (e.g., inconsistencies, ambiguities, inaccuracies)
+- Increasing development **productivity** and code maintainability
+- Reducing **development** and **testing** cost and time
+- Lowering **total cost of quality** over the software’s lifecycle
+- Improving team communication during review processes
+
+---
+
+### 3.1.3 Differences Between Static and Dynamic Testing
+
+Static and dynamic testing share objectives (e.g., quality assessment, early defect detection), but they uncover different types of defects.
+
+#### Key Differences:
+- **Static testing** finds defects directly in work products (e.g., unexecuted code).
+- **Dynamic testing** identifies failures caused by defects during software execution.
+- Static testing is better at finding defects in rarely exercised or hard-to-reach paths.
+- Static testing improves the **internal quality** of work products, whereas dynamic testing focuses on **externally visible behavior**.
+
+#### Defects Found by Static Testing:
+- **Requirement defects** (inconsistencies, ambiguities, omissions)
+- **Design defects** (inefficient algorithms, high coupling, low cohesion)
+- **Coding defects** (undefined variables, unreachable code, duplicate code)
+- **Deviations from standards** (non-adherence to coding standards)
+- **Interface specification errors** (e.g., mismatched units between systems)
+- **Security vulnerabilities** (e.g., buffer overflows)
+- **Gaps in test basis traceability** or **coverage**
+
+Additionally, **maintainability defects** (e.g., improper modularization, poor reusability) are mostly detected via static testing.
