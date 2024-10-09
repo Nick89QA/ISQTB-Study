@@ -145,6 +145,42 @@ Static and dynamic testing share objectives (e.g., quality assessment, early def
 - **Deviations from standards** (non-adherence to coding standards)
 - **Interface specification errors** (e.g., mismatched units between systems)
 - **Security vulnerabilities** (e.g., buffer overflows)
-- **Gaps in test basis traceability** or **coverage**
+- **Gaps or inaccuracies in test basis traceability or coverage** (e.g., missing tests for an acceptance criterion)
 
-Additionally, **maintainability defects** (e.g., improper modularization, poor reusability) are mostly detected via static testing.
+Moreover, most types of **maintainability defects** can only be found through static testing, such as:
+- **Improper modularization**
+- **Poor reusability of components**
+- **Code that is difficult to analyze or modify** without introducing new defects
+
+## 3.2 Review Process
+
+Reviews can range from **informal** to **formal**:
+- **Informal reviews**: No defined process, no formal documented output.
+- **Formal reviews**: Include team participation, documented results, and procedures for conducting the review.
+
+### 3.2.1 Work Product Review Process
+
+The review process consists of the following activities:
+
+#### 1. Planning
+- Defining scope, including the purpose, documents to be reviewed, and quality characteristics to evaluate.
+- Estimating effort and timeframe.
+- Identifying review characteristics (review type, roles, activities, and checklists).
+- Selecting participants and assigning roles.
+- Defining entry and exit criteria (for formal reviews like inspections).
+- Ensuring entry criteria are met (in formal reviews).
+
+#### 2. Initiate Review
+- Distributing the work product and related materials (e.g., checklists, issue log forms).
+- Explaining the scope, objectives, process, roles, and materials to participants.
+- Answering participant questions about the review.
+
+#### 3. Individual Review (Preparation)
+- Reviewing the work product individually.
+- Noting potential defects, recommendations, and questions.
+
+#### 4. Issue Communication and Analysis
+- Communicating potential defects (e.g., in a review meeting).
+- Analyzing defects, assigning ownership and status.
+- Evaluating and documenting quality characteristics.
+- Evaluating the review findings against the exit criteria to make a review decision (reject; major changes needed; accept, possibly with minor changes)
