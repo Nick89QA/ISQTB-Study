@@ -184,3 +184,54 @@ The review process consists of the following activities:
 - Analyzing defects, assigning ownership and status.
 - Evaluating and documenting quality characteristics.
 - Evaluating the review findings against the exit criteria to make a review decision (reject; major changes needed; accept, possibly with minor changes)
+### 3.2.2 Roles and Responsibilities in a Formal Review
+
+- **Author**
+    - Creates the work product under review.
+    - Fixes defects in the work product (if necessary).
+
+- **Management**
+    - Responsible for review planning.
+    - Decides on the execution of reviews.
+    - Assigns staff, budget, and time.
+    - Monitors ongoing cost-effectiveness.
+    - Executes control decisions in the event of inadequate outcomes.
+
+- **Facilitator (Moderator)**
+    - Ensures effective running of review meetings (when held).
+    - Mediates between different points of view if necessary.
+    - The success of the review often depends on this role.
+
+- **Review Leader**
+    - Takes overall responsibility for the review.
+    - Decides who will be involved and organizes when and where it will take place.
+
+- **Reviewers**
+    - May be subject matter experts, project team members, stakeholders, or individuals with specific technical or business backgrounds.
+    - Identify potential defects in the work product under review.
+    - May represent different perspectives (e.g., tester, developer, user, operator, business analyst, usability expert).
+
+- **Scribe (Recorder)**
+    - Collates potential defects found during the individual review activity.
+    - Records new potential defects, open points, and decisions from the review meeting (when held).
+
+In some review types, one person may play more than one role, and the actions associated with each role may vary. With the use of tools to support the review process, the need for a scribe is often eliminated. Further details are available in ISO standard (ISO/IEC 20246).
+
+### 3.2.3 Review Types
+
+Although reviews can be used for various purposes, one of the main objectives is to uncover defects. All review types can aid in defect detection, and the selected review type should be based on the needs of the project, available resources, product type and risks, business domain, and company culture, among other selection criteria.
+
+A single work product may be the subject of more than one type of review. If more than one type of review is used, the order may vary. For example, an informal review may be carried out before a technical review, to ensure the work product is ready for a technical review.
+
+The types of reviews described below can be done as peer reviews, i.e., done by colleagues qualified to do the same work. The types of defects found in a review vary, depending especially on the work product being reviewed. (See section 3.1.3 for examples of defects that can be found by reviews in different work products, and Gilb 1993 for information on formal inspections).
+
+#### Informal Review (e.g., buddy check, pairing, pair review)
+- **Main purpose**: detecting potential defects
+- **Possible additional purposes**: generating new ideas or solutions, quickly solving minor problems
+- **Not based on a formal (documented) process**
+- **May not involve a review meeting**
+- **May be performed by a colleague of the author (buddy check) or by more people**
+- **Results may be documented**
+- **Varies in usefulness depending on the reviewers**
+- **Use of checklists is optional**
+- **Very commonly used in Agile development**
