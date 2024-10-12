@@ -235,3 +235,61 @@ The types of reviews described below can be done as peer reviews, i.e., done by 
 - **Varies in usefulness depending on the reviewers**
 - **Use of checklists is optional**
 - **Very commonly used in Agile development**
+
+### Walkthrough
+- **Main purposes**: find defects, improve the software product, consider alternative implementations, evaluate conformance to standards and specifications
+- **Possible additional purposes**: exchanging ideas about techniques or style variations, training of participants, achieving consensus
+- **Individual preparation before the review meeting is optional**
+- **Review meeting** is typically led by the author of the work product
+- **Scribe** is mandatory
+- **Use of checklists** is optional
+- May take the form of scenarios, dry runs, or simulations
+- Potential defect logs and review reports are produced
+- May vary in practice from quite informal to very formal
+
+### Technical Review
+- **Main purposes**: gaining consensus, detecting potential defects
+- **Possible further purposes**: evaluating quality and building confidence in the work product, generating new ideas, motivating and enabling authors to improve future work products, considering alternative implementations
+- **Reviewers** should be technical peers of the author and technical experts in the same or other disciplines
+- **Individual preparation** before the review meeting is required
+- **Review meeting** is optional, ideally led by a trained facilitator (typically not the author)
+- **Scribe** is mandatory, ideally not the author
+- **Use of checklists** is optional
+- Potential defect logs and review reports are produced
+
+### Inspection
+- **Main purposes**: detecting potential defects, evaluating quality and building confidence in the work product, preventing future similar defects through author learning and root cause analysis
+- **Possible further purposes**: motivating and enabling authors to improve future work products and the software development process, achieving consensus
+- **Follows a defined process** with formal documented outputs, based on rules and checklists
+- **Uses clearly defined roles**, such as those specified in section 3.2.2 which are mandatory, and may include a dedicated reader (who reads the work product aloud often paraphrasing it during the review meeting)
+- **Individual preparation** before the review meeting is required
+- **Reviewers** are either peers of the author or experts in other disciplines relevant to the work product
+- **Specified entry and exit criteria** are used
+- **Scribe** is mandatory
+- **Review meeting** is led by a trained facilitator (not the author)
+- **Author** cannot act as the review leader, reader, or scribe
+- Potential defect logs and review reports are produced
+- **Metrics** are collected and used to improve the software development process, including the inspection process
+
+### 3.2.4 Applying Review Techniques
+There are several review techniques that can be applied during the individual review activity to uncover defects. These techniques can be used across the review types described above. The effectiveness of the techniques may differ depending on the type of review used.
+
+#### Ad Hoc
+- **Process**: Reviewers are provided with little or no guidance. They often read the work product sequentially, identifying and documenting issues as they encounter them.
+- **Advantages**: Commonly used and needs little preparation.
+- **Disadvantages**: Highly dependent on reviewer skills, may lead to duplicate issues being reported by different reviewers.
+
+#### Checklist-based
+- **Process**: Reviewers detect issues based on checklists distributed at review initiation. Checklists consist of questions derived from experience or previous defects.
+- **Advantages**: Systematic coverage of typical defect types.
+- **Disadvantages**: Reviewers should not be constrained to the checklist and should look for defects outside the checklist.
+
+#### Scenarios and Dry Runs
+- **Process**: Reviewers are provided with structured guidelines to perform dry runs on the work product based on expected usage.
+- **Advantages**: Helps identify specific defect types based on usage scenarios.
+- **Disadvantages**: Reviewers should not miss other defect types outside documented scenarios.
+
+#### Perspective-based
+- **Process**: Reviewers take on different stakeholder viewpoints (e.g., end user, tester, operations) to gain depth in reviewing.
+- **Advantages**: Leads to more in-depth reviewing with fewer duplicated issues.
+- **Additional**: Requires reviewers to attempt to generate the product they would derive from the work product under review (e.g., testers generate draft acceptance tests from requirements).
