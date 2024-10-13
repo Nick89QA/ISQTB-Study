@@ -293,3 +293,39 @@ There are several review techniques that can be applied during the individual re
 - **Process**: Reviewers take on different stakeholder viewpoints (e.g., end user, tester, operations) to gain depth in reviewing.
 - **Advantages**: Leads to more in-depth reviewing with fewer duplicated issues.
 - **Additional**: Requires reviewers to attempt to generate the product they would derive from the work product under review (e.g., testers generate draft acceptance tests from requirements).
+### Perspective-based
+- **Process**: Reviewers evaluate the work product from different stakeholder viewpoints to see if all necessary information was included. Checklists are expected to be used.
+- **Effectiveness**: Empirical studies show that perspective-based reading is the most effective general technique for reviewing requirements and technical work products.
+- **Key Success Factor**: Including and weighing different stakeholder viewpoints appropriately, based on risks.
+- **References**: Shul (2000) for details on perspective-based reading, Sauer (2000) for the effectiveness of different review techniques.
+
+### Role-based
+- **Process**: Reviewers evaluate the work product from the perspective of individual stakeholder roles (e.g., specific end user types like experienced, inexperienced, senior, child, or roles like user administrator, system administrator, performance tester, etc.).
+- **Similarities**: Follows the same principles as perspective-based reading, focusing on individual stakeholder roles.
+
+### 3.2.5 Success Factors for Reviews
+To ensure a successful review, the right type of review and techniques must be used. Additional factors that influence the outcome of a review include:
+
+#### Organizational Success Factors:
+- Each review has **clear objectives**, defined during review planning, and used as measurable exit criteria.
+- The selected **review types** are suitable to achieve the objectives and are appropriate for the type and level of software work products and participants.
+- **Review techniques** used (e.g., checklist-based, role-based) are appropriate for effective defect identification in the work product.
+- Any **checklists used** are up to date and address the main risks.
+- **Large documents** are written and reviewed in small chunks to allow for early and frequent feedback on defects.
+- Participants are given **adequate time to prepare**.
+- Reviews are scheduled with **adequate notice**.
+- **Management supports** the review process (e.g., by incorporating adequate time for review activities in project schedules).
+- Reviews are integrated into the company's **quality** and/or **test policies**.
+  People-related success factors for reviews include:
+  • The right people are involved to meet the review objectives, for example, people with different skill sets or perspectives, who may use the document as a work input
+  • Testers are seen as valued reviewers who contribute to the review and learn about the work product, which enables them to prepare more effective tests, and to prepare those tests earlier
+  • Participants dedicate adequate time and attention to detail
+  • Reviews are conducted on small chunks, so that reviewers do not lose concentration during
+  individual review and/or the review meeting (when held)
+  • Defects found are acknowledged, appreciated, and handled objectively
+  • The meeting is well-managed, so that participants consider it a valuable use of their time
+  • The review is conducted in an atmosphere of trust; the outcome will not be used for the evaluation of the participants
+  • Participants avoid body language and behaviors that might indicate boredom, exasperation, or hostility to other participants
+  • Adequate training is provided, especially for more formal review types such as inspections
+  • A culture of learning and process improvement is promoted
+  (See Gilb 1993, Wiegers 2002, and van Veenendaal 2004 for more on successful reviews.)
