@@ -144,3 +144,46 @@ The international standard (ISO/IEC/IEEE 29119-4) contains descriptions of test 
     - — = condition doesn’t matter (N/A)
 - **For actions**:
     - X = action should occur (may also be Y, T, or 1)
+
+- **Blank** means the action should not occur (may also be shown as —, N, F, or 0).
+- A **full decision table** includes enough columns (test cases) to cover every combination of conditions. Reducing columns by removing impossible combinations can decrease the number of test cases. For more information on collapsing decision tables, see ISTQB-CTAL-AT.
+
+### Coverage for Decision Table Testing
+- The common minimum coverage standard is to have at least one test case per decision rule. This typically covers all combinations of conditions.
+- **Coverage** is measured as the number of decision rules tested by at least one test case, divided by the total number of decision rules, expressed as a percentage.
+
+#### Strength of Decision Table Testing:
+- Helps identify important combinations of conditions that might otherwise be overlooked.
+- Assists in finding gaps in requirements.
+- Can be applied at any test level where the behavior depends on a combination of conditions.
+
+---
+
+### 4.2.4 State Transition Testing
+- In **state transition testing**, components or systems respond differently to events depending on current conditions or previous history (events since the system was initialized).
+- **States** summarize the previous history, and **state transition diagrams** show possible software states, transitions between states, and actions triggered by events (e.g., user inputs).
+- The same event can cause different transitions based on the current state.
+
+#### Key Elements:
+- **State Transition Table**: Shows valid and potentially invalid transitions between states, the events that trigger them, and the resulting actions.
+- Tests can be designed to:
+    - Cover typical sequences of states
+    - Exercise all states and transitions
+    - Test specific sequences of transitions or invalid transitions.
+
+#### Application:
+- Used in **menu-based applications** and widely within the **embedded software** industry.
+- Suitable for modeling business scenarios with specific states or testing screen navigation.
+- **Coverage** is measured by the number of identified states or transitions tested, divided by the total number of states or transitions in the test object.
+
+---
+
+### 4.2.5 Use Case Testing
+- **Use case testing** derives tests from **use cases**, which define interactions with software items. These incorporate software functional requirements.
+- **Actors** (users, external hardware, or other components) and **subjects** (the system to which the use case applies) are involved in the use cases.
+
+#### Key Elements:
+- A use case specifies the behavior a subject performs with one or more actors.
+- Descriptions of use cases include **preconditions**, **postconditions**, interactions, and **activities**. Natural language descriptions may also be used.
+- **Interactions** between actors and the subject can result in changes to the subject’s state.
+- Graphical representations such as **workflows**, **activity diagrams**, or **business process models** may be used.
