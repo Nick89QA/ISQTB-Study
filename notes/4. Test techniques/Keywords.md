@@ -187,3 +187,34 @@ The international standard (ISO/IEC/IEEE 29119-4) contains descriptions of test 
 - Descriptions of use cases include **preconditions**, **postconditions**, interactions, and **activities**. Natural language descriptions may also be used.
 - **Interactions** between actors and the subject can result in changes to the subject’s state.
 - Graphical representations such as **workflows**, **activity diagrams**, or **business process models** may be used.
+
+A use case can include possible variations of its basic behavior, such as **exceptional behavior** and **error handling** (e.g., system responses to programming, application, or communication errors). Tests are designed to exercise basic, alternative, and exceptional behaviors, including error handling. **Coverage** is measured by the number of use case behaviors tested, divided by the total number of use case behaviors, usually expressed as a percentage.
+
+For more information on coverage criteria for use case testing, see ISTQB-CTAL-AT.
+
+---
+
+### 4.3 White-box Test Techniques
+
+White-box testing focuses on the internal structure of the test object and is applicable at all test levels. The two white-box techniques discussed below are most common at the **component test** level.
+
+For more advanced white-box techniques used in safety-critical environments, see ISTQB-CTAL-TTA.
+
+#### 4.3.1 Statement Testing and Coverage
+- **Statement testing** exercises the executable statements in the code.
+- **Coverage** is measured as the number of statements executed divided by the total number of executable statements in the test object, expressed as a percentage.
+
+#### 4.3.2 Decision Testing and Coverage
+- **Decision testing** focuses on decision points in the code and tests the code executed based on decision outcomes.
+- Test cases are designed to follow control flows from decision points (e.g., IF statements require test cases for both true and false outcomes; CASE statements need test cases for all possible outcomes, including defaults).
+- **Coverage** is measured as the number of decision outcomes executed divided by the total number of decision outcomes in the test object, expressed as a percentage.
+
+#### 4.3.3 The Value of Statement and Decision Testing
+- Achieving 100% **statement coverage** ensures all executable statements are tested, but not all decision logic.
+- 100% **decision coverage** ensures all decision outcomes (true and false) are tested. Achieving 100% decision coverage also guarantees 100% statement coverage, but not vice versa.
+- **Statement coverage** helps find defects in unexecuted code, while **decision coverage** helps identify issues in logic that tests may miss.
+
+---
+
+### 4.4 Experience-based Test Techniques
+Experience-based test techniques derive test cases from the **tester’s skills**, **intuition**, and **experience** with similar systems. These techniques may uncover test cases that systematic methods might overlook. The effectiveness and coverage of experience-based techniques can vary widely depending on the tester’s background. **Coverage** can be difficult to assess and may not be easily measurable.
