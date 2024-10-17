@@ -218,3 +218,16 @@ For more advanced white-box techniques used in safety-critical environments, see
 
 ### 4.4 Experience-based Test Techniques
 Experience-based test techniques derive test cases from the **tester’s skills**, **intuition**, and **experience** with similar systems. These techniques may uncover test cases that systematic methods might overlook. The effectiveness and coverage of experience-based techniques can vary widely depending on the tester’s background. **Coverage** can be difficult to assess and may not be easily measurable.
+
+Commonly used experience-based techniques are discussed in the following sections.
+
+### 4.4.1 Error Guessing
+**Error guessing** is a technique used to anticipate errors, defects, and failures based on the tester’s knowledge and experience. This can include:
+- How the application has behaved in the past
+- Common types of errors that tend to be made
+- Failures encountered in other applications
+
+A methodical approach to error guessing involves creating a **list of possible errors**, defects, and failures, then designing tests to expose those failures and the underlying defects. These lists can be built from:
+- Personal experience
+- Historical defect and failure data
+- Common knowledge about why software tends to fail.
