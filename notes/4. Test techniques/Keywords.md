@@ -231,3 +231,20 @@ A methodical approach to error guessing involves creating a **list of possible e
 - Personal experience
 - Historical defect and failure data
 - Common knowledge about why software tends to fail.
+
+### 4.4.2 Exploratory Testing
+**Exploratory testing** involves designing, executing, logging, and evaluating tests dynamically during test execution. The test results help testers learn more about the system and identify areas that may need further testing.
+
+This approach is often used when:
+- Specifications are incomplete or unclear
+- There is significant time pressure
+- As a complement to more formal testing techniques
+
+Exploratory testing can be structured using **session-based testing**, where testing is conducted within a defined time-box. Testers follow a **test charter** that outlines objectives and may document their steps and findings using **test session sheets**.
+
+Exploratory testing is commonly associated with **reactive test strategies** (see section 5.2.2) and can include black-box, white-box, and experience-based techniques.
+
+### 4.4.3 Checklist-based Testing
+In **checklist-based testing**, testers create and execute tests based on conditions found in a **checklist**. These checklists can be newly created or expanded based on experience, user requirements, or common software failures. Existing checklists may also be used without modification.
+
+Checklists can support both **functional and non-functional testing**, providing guidelines and a degree of consistency when detailed test cases are unavailable. While high-level, checklists allow flexibility in testing, which can increase coverage but reduce repeatability.
