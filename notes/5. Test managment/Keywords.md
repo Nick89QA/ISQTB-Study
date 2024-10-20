@@ -75,3 +75,52 @@ Potential drawbacks of test independence include:
 • Developers may lose a sense of responsibility for quality
 • Independent testers may be seen as a bottleneck
 • Independent testers may lack some important information (e.g., about the test object)
+
+### 5.1.2 Tasks of a Test Manager and Tester
+
+In this section, we explore two primary roles in testing: **test managers** and **testers**. The specific tasks and responsibilities for these roles vary depending on project and product context, skill levels, and organizational structure.
+
+#### **Test Manager Tasks**
+The **test manager** is responsible for overseeing the entire test process and ensuring the success of the testing activities. This role may be carried out by various individuals such as a test manager, project manager, or quality assurance manager. In larger projects, multiple test teams may report to the test manager, with each team led by a **test leader** or **lead tester**.
+
+Typical tasks of a test manager include:
+- **Developing or reviewing test policy and strategy** for the organization.
+- **Planning test activities** based on the project context, test objectives, and risks. This includes:
+    - Selecting test approaches.
+    - Estimating time, effort, and costs.
+    - Defining test levels, cycles, and defect management processes.
+- **Writing and updating test plans**.
+- **Coordinating test plans** with stakeholders such as project managers and product owners.
+- **Sharing testing perspectives** with other project teams (e.g., integration planning).
+- **Initiating test analysis, design, and execution**, monitoring progress, and checking exit criteria.
+- **Preparing test progress and summary reports**.
+- **Adapting planning based on test progress and results**.
+- **Supporting defect management and configuration management** for testware.
+- **Introducing metrics** for test progress and product quality evaluation.
+- **Supporting tool selection and implementation** for the test process.
+- **Deciding on the implementation of test environments**.
+- **Promoting the test team** and the test profession within the organization.
+- **Developing testers' skills and careers** (e.g., training plans, coaching).
+
+In **Agile environments**, many of these tasks are handled by the Agile team. Day-to-day testing is often managed by a tester within the team, while tasks that span multiple teams or concern personnel management may still be performed by a test manager or **test coach**.
+
+#### **Tester Tasks**
+The **tester** works more hands-on with the testing activities, performing tasks that ensure the quality and functionality of the product. Typical tester tasks include:
+- **Reviewing and contributing to test plans**.
+- **Analyzing requirements, user stories, acceptance criteria, and specifications** for testability.
+- **Identifying and documenting test conditions** and ensuring traceability between test cases and the test basis.
+- **Designing, setting up, and verifying test environments**.
+- **Designing and implementing test cases and procedures**.
+- **Preparing and acquiring test data**.
+- **Creating a detailed test execution schedule**.
+- **Executing tests, evaluating results**, and documenting deviations.
+- **Using tools to support the test process**.
+- **Automating tests** as needed, with possible support from developers or automation experts.
+- **Evaluating non-functional characteristics** such as performance, reliability, and security.
+- **Reviewing tests developed by others**.
+
+Different testers might specialize in certain areas such as **test analysis**, **test design**, or **test automation**. Testers may also vary based on the test level they are involved in:
+- **Component and integration testing**: Often handled by developers.
+- **Acceptance testing**: Often handled by business analysts, subject matter experts, or users.
+- **System and system integration testing**: Usually conducted by independent test teams.
+- **Operational acceptance testing**: Typically conducted by operations or systems administration staff.
