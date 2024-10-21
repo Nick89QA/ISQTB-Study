@@ -124,3 +124,44 @@ Different testers might specialize in certain areas such as **test analysis**, *
 - **Acceptance testing**: Often handled by business analysts, subject matter experts, or users.
 - **System and system integration testing**: Usually conducted by independent test teams.
 - **Operational acceptance testing**: Typically conducted by operations or systems administration staff.
+
+### 5.2 Test Planning and Estimation
+
+#### 5.2.1 Purpose and Content of a Test Plan
+A test plan outlines test activities for both development and maintenance projects. Test planning is influenced by the organization’s test policy, test strategy, development lifecycles, project scope, objectives, risks, constraints, and resource availability. As the project progresses, more information becomes available, and the test plan becomes more detailed. Test planning is a continuous process that spans the product's lifecycle, including maintenance.
+
+Feedback from test activities helps in recognizing changing risks, which allows adjustments in the planning process. A master test plan and separate plans for different test levels (e.g., system testing, acceptance testing) or test types (e.g., usability, performance testing) may be created.
+
+Test planning activities may include:
+- Determining the **scope**, **objectives**, and **risks** of testing
+- Defining the overall **approach** of testing
+- Coordinating the **test activities** with the software lifecycle
+- Making decisions about **what to test**, resources required, and how testing will be conducted
+- **Scheduling** test activities such as analysis, design, implementation, execution, and evaluation
+- Selecting **metrics** for monitoring and control
+- **Budgeting** for test activities
+- Determining the structure and level of detail for **test documentation**
+
+The content of a test plan may vary depending on the context, but a sample test plan structure can be found in the **ISO standard (ISO/IEC/IEEE 29119-3)**.
+
+#### 5.2.2 Test Strategy and Test Approach
+A **test strategy** is a generalized description of the testing process, typically at the product or organizational level. Common types of test strategies include:
+
+- **Analytical**: Based on analysis of a factor such as risk (e.g., risk-based testing).
+- **Model-based**: Based on models like business processes, state models, or reliability growth models.
+- **Methodical**: Systematic use of predefined tests, such as common failure taxonomies or quality characteristics.
+- **Process-compliant**: Based on external rules, standards, or process documentation.
+- **Directed**: Driven by the advice of stakeholders or experts.
+- **Regression-averse**: Focused on preventing regression through automation and reuse of test cases.
+- **Reactive**: Testing is reactive to system behavior during execution (e.g., exploratory testing).
+
+An appropriate strategy often combines several of these approaches. For example, **risk-based testing** (analytical) can be combined with **exploratory testing** (reactive).
+
+The **test approach** tailors the strategy for a specific project or release, selecting techniques, levels, types, and criteria (entry and exit). It considers project complexity, goals, risks, and resources.
+
+#### 5.2.3 Entry Criteria and Exit Criteria (Definition of Ready and Definition of Done)
+**Entry criteria** (or **definition of ready** in Agile) specify the preconditions for starting a test activity. If unmet, testing may become more challenging, costly, or risky. **Exit criteria** (or **definition of done**) define the conditions for declaring a test level or set of tests complete.
+
+Typical **entry criteria** include:
+- Availability of **testable requirements**, user stories, or models
+- Test items meeting the **exit criteria** for prior levels
