@@ -164,4 +164,35 @@ The **test approach** tailors the strategy for a specific project or release, se
 
 Typical **entry criteria** include:
 - Availability of **testable requirements**, user stories, or models
-- Test items meeting the **exit criteria** for prior levels
+- Test items meeting the **exit criteria** for prior levels 
+- **Availability of test environment**
+- **Availability of necessary test tools**
+- **Availability of test data** and other necessary resources
+
+### Typical Exit Criteria Include:
+- Planned tests have been executed
+- A defined level of **coverage** (e.g., requirements, user stories, acceptance criteria, risks, code) has been achieved
+- The number of unresolved defects is within an agreed limit
+- The number of estimated remaining defects is sufficiently low
+- The evaluated levels of **reliability**, **performance efficiency**, **usability**, **security**, and other relevant quality characteristics are sufficient
+
+Even if exit criteria are not fully satisfied, testing activities may be curtailed due to constraints such as budget, time, or pressure to release the product. In such cases, it can be acceptable to stop testing if the stakeholders and business owners accept the associated risks of going live without further testing.
+
+### 5.2.4 Test Execution Schedule
+Once test cases and procedures are ready, they are assembled into test suites and arranged into a **test execution schedule**, which defines the order in which the suites will run. The execution schedule considers factors such as:
+- **Prioritization** of test cases
+- **Dependencies** between test cases or features
+- **Confirmation** tests
+- **Regression** tests
+
+Ideally, test cases are run based on priority, with the highest-priority cases executed first. However, dependencies may require some lower-priority test cases to be executed first. **Confirmation** and **regression tests** also need to be prioritized based on the importance of rapid feedback on changes, but these may also be influenced by dependencies.
+
+Sometimes, different sequences of tests may be possible, and decisions must be made to balance efficiency of execution against strict adherence to prioritization.
+
+### 5.2.5 Factors Influencing the Test Effort
+**Test effort estimation** involves predicting the amount of work required to meet testing objectives for a project, release, or iteration. Factors influencing the test effort may include:
+
+#### Product Characteristics:
+- The **risks** associated with the product
+- The quality of the **test basis**
+- The **size** of the product
