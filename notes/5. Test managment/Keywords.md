@@ -196,3 +196,57 @@ Sometimes, different sequences of tests may be possible, and decisions must be m
 - The **risks** associated with the product
 - The quality of the **test basis**
 - The **size** of the product
+- **The complexity of the product domain**
+- **The requirements for quality characteristics** (e.g., security, reliability)
+- The required level of detail for **test documentation**
+- Requirements for **legal and regulatory compliance**
+
+#### Development Process Characteristics:
+- The stability and maturity of the organization
+- The **development model** in use
+- The **test approach**
+- The tools used
+- The **test process**
+- **Time pressure**
+
+#### People Characteristics:
+- The **skills and experience** of the people involved, especially with similar projects and products (e.g., domain knowledge)
+- Team cohesion and **leadership**
+
+#### Test Results:
+- The number and severity of **defects** found
+- The amount of **rework** required
+
+### 5.2.6 Test Estimation Techniques
+Two commonly used techniques for test effort estimation are:
+
+1. **Metrics-based technique**: Estimating the test effort based on metrics from former similar projects or typical values.
+  - For example, in Agile development, **burndown charts** are used to track effort remaining and feed into the team's velocity for future iterations.
+
+2. **Expert-based technique**: Estimating the test effort based on the experience of task owners or experts.
+  - For example, in Agile development, **planning poker** is used by team members to estimate the effort for delivering features based on experience.
+
+In sequential projects, defect removal models are used as an example of the **metrics-based approach**, while **Wideband Delphi estimation** is an example of the **expert-based approach**.
+
+---
+
+### 5.3 Test Monitoring and Control
+The purpose of **test monitoring** is to gather information and provide feedback and visibility about test activities. This information helps assess progress and whether exit criteria are satisfied, such as meeting the targets for coverage of risks, requirements, or acceptance criteria.
+
+**Test control** involves corrective actions based on the metrics gathered. Actions may affect any test activity and other software lifecycle activities.
+
+#### Examples of Test Control Actions:
+- **Re-prioritizing tests** due to identified risks (e.g., delayed software delivery)
+- **Changing the test schedule** due to resource or environment availability
+- **Re-evaluating test items** based on whether they meet entry or exit criteria after rework
+
+### 5.3.1 Metrics Used in Testing
+Metrics help assess the progress, quality, and adequacy of test activities. Common test metrics include:
+
+- **Percentage of planned work done** in test case preparation or implementation
+- **Percentage of planned work done** in test environment preparation
+- **Test case execution** metrics (e.g., number of test cases run/not run, passed/failed)
+- **Defect information** (e.g., defect density, defects found and fixed, failure rate, confirmation test results)
+- **Test coverage** of requirements, user stories, acceptance criteria, risks, or code
+- Task completion, resource allocation, usage, and effort
+- **Cost of testing**, including the cost compared to the benefit of finding the next defect or running the next test
