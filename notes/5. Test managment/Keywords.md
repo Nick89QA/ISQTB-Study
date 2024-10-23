@@ -250,3 +250,42 @@ Metrics help assess the progress, quality, and adequacy of test activities. Comm
 - **Test coverage** of requirements, user stories, acceptance criteria, risks, or code
 - Task completion, resource allocation, usage, and effort
 - **Cost of testing**, including the cost compared to the benefit of finding the next defect or running the next test
+
+### 5.3.2 Purposes, Contents, and Audiences for Test Reports
+
+The purpose of **test reporting** is to summarize and communicate information about test activities, both during and at the end of a test activity (e.g., a test level).
+
+- **Test progress reports**: Prepared during a test activity.
+- **Test summary reports**: Prepared at the end of a test activity.
+
+During **test monitoring and control**, the test manager regularly issues test progress reports for stakeholders. These reports provide updates on test progress and any issues encountered.
+
+#### Typical contents of test progress reports:
+- Status of test activities and progress against the test plan
+- Factors impeding progress
+- Planned testing for the next reporting period
+- Quality of the test object
+
+When exit criteria are reached, the test manager issues a **test summary report**, summarizing the testing performed based on the latest test progress report and other relevant information.
+
+#### Typical contents of test summary reports:
+- Summary of testing performed
+- Information on events during the test period
+- Deviations from the plan (e.g., schedule, duration, effort)
+- Status of testing and product quality with respect to exit criteria or definition of done
+- Factors blocking progress
+- Metrics of defects, test cases, test coverage, and resource consumption
+- **Residual risks** (see section 5.5)
+- Reusable test work products produced
+
+The **contents of a test report** will vary based on the project, organizational requirements, and software development lifecycle. For example, a complex project may require more detailed reports than a quick software update. In Agile development, test progress reporting may be done via **task boards**, **defect summaries**, or **burndown charts** and discussed in daily stand-up meetings.
+
+Test reports should also be **tailored to the audience**:
+- **Technical audience or test team**: Detailed information, such as defect types and trends, is important.
+- **Executive audience**: A high-level report, such as a summary of defects by priority, budget, schedule, and test conditions passed/failed, is more appropriate.
+
+ISO standard (ISO/IEC/IEEE 29119-3) refers to two types of test reports:
+1. **Test progress reports**
+2. **Test completion reports** (called test summary reports in this syllabus)
+
+The ISO standard also provides structures and examples for each type.
