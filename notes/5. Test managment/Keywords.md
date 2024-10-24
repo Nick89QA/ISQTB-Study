@@ -289,3 +289,36 @@ ISO standard (ISO/IEC/IEEE 29119-3) refers to two types of test reports:
 2. **Test completion reports** (called test summary reports in this syllabus)
 
 The ISO standard also provides structures and examples for each type.
+
+### 5.4 Configuration Management
+
+The purpose of **configuration management** is to establish and maintain the integrity of the component or system, the testware, and their relationships throughout the project and product lifecycle.
+
+To support testing properly, configuration management may involve ensuring:
+- All **test items** are uniquely identified, version-controlled, tracked for changes, and related to each other.
+- All **testware** items are uniquely identified, version-controlled, tracked for changes, and related to each other, as well as to the versions of the test item(s), to maintain traceability throughout the test process.
+- All identified documents and software items are referenced unambiguously in test documentation.
+
+During **test planning**, configuration management procedures and infrastructure (tools) should be identified and implemented.
+
+### 5.5 Risks and Testing
+
+#### 5.5.1 Definition of Risk
+
+**Risk** involves the possibility of a future event that has negative consequences. The level of risk is determined by:
+- **Likelihood** of the event occurring
+- **Impact** (the harm) from that event
+
+#### 5.5.2 Product and Project Risks
+
+- **Product risk** refers to the possibility that a work product (e.g., a specification, component, system, or test) may fail to satisfy the legitimate needs of its users and/or stakeholders.
+- When product risks are associated with specific **quality characteristics** of a product (e.g., functional suitability, reliability, performance efficiency, usability, security, compatibility, maintainability, and portability), they are also called **quality risks**.
+
+##### Examples of product risks:
+- The software might not perform its intended functions according to the specification.
+- The software might not meet user, customer, or stakeholder needs.
+- System architecture may not support non-functional requirements.
+- Incorrect computations in certain circumstances.
+- Errors in loop control structures.
+- Inadequate response times for high-performance systems.
+- User experience (UX) feedback might not meet product expectations.
