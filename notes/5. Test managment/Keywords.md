@@ -357,3 +357,36 @@ During **test planning**, configuration management procedures and infrastructure
   - Contractual issues may disrupt the project.
 
 **Project risks** can impact both development and testing activities. Project managers are often responsible for handling project risks; however, it is not uncommon for test managers to manage test-related project risks.
+
+#### 5.5.3 Risk-Based Testing and Product Quality
+
+**Risk-based testing** leverages risk to focus testing efforts, helping to identify where to start testing, which areas require more attention, and how to mitigate potential adverse outcomes.
+
+Risk-based testing aims to:
+- **Reduce the probability** of negative events or minimize their impact.
+- **Mitigate risk** by identifying and analyzing risks, helping to make informed testing decisions.
+- **Provide information** on residual risks, offering insight into unresolved risks.
+
+##### Key elements of a risk-based approach:
+1. **Product Risk Analysis**:
+  - Identifies and assesses the likelihood and impact of product risks.
+  - Guides test planning, preparation, execution, and monitoring.
+  - Conducted early to contribute to project success.
+
+2. **Guiding Decisions**:
+  - Influences the **test techniques** to be used.
+  - Determines the **types and levels of testing** needed (e.g., security or accessibility testing).
+  - Defines the **extent and prioritization** of testing to uncover critical defects early.
+  - Highlights additional **risk reduction measures** (e.g., training for inexperienced designers).
+
+3. **Stakeholder Collaboration**:
+  - Engages stakeholders to leverage collective knowledge for accurate risk analysis.
+  - Ensures a structured approach to assess, re-evaluate, and prioritize risks throughout the project.
+
+##### Risk Management Activities:
+- **Risk Analysis**: Continuously assess what might go wrong.
+- **Prioritization**: Determine which risks require immediate action.
+- **Mitigation**: Implement proactive measures to reduce risk.
+- **Contingency Planning**: Prepare responses in case risks materialize.
+
+Testing also serves to identify new risks, decide which risks to mitigate, and reduce uncertainty around potential risks.
