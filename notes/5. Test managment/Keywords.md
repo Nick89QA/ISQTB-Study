@@ -322,3 +322,38 @@ During **test planning**, configuration management procedures and infrastructure
 - Errors in loop control structures.
 - Inadequate response times for high-performance systems.
 - User experience (UX) feedback might not meet product expectations.
+
+#### Project Risks
+
+**Project risk** refers to situations that, if they occur, may negatively impact a project's ability to achieve its objectives.
+
+##### Examples of project risks:
+
+- **Project issues:**
+  - Delays may occur in delivery, task completion, or meeting exit criteria or the definition of done.
+  - Inaccurate estimates, reallocation of funds, or general cost-cutting may result in inadequate funding.
+  - Late changes may require substantial re-work.
+
+- **Organizational issues:**
+  - Insufficient skills, training, or staff availability.
+  - Personnel issues causing conflicts or other problems.
+  - Limited availability of users, business staff, or subject matter experts due to conflicting priorities.
+
+- **Political issues:**
+  - Testers may not adequately communicate their needs or test results.
+  - Developers/testers may not act on testing and review feedback (e.g., by not improving practices).
+  - Improper attitudes toward testing or unrealistic testing expectations (e.g., undervaluing defect detection).
+
+- **Technical issues:**
+  - Requirements may be poorly defined.
+  - Requirements may not be achievable within existing constraints.
+  - The test environment may not be ready on time.
+  - Data conversion, migration planning, and tool support may be delayed.
+  - Development process weaknesses may affect the quality of project work products (e.g., design, code, configuration, test data, test cases).
+  - Poor defect management may lead to accumulated defects and technical debt.
+
+- **Supplier issues:**
+  - A third party may fail to deliver a product/service or face financial issues.
+  - Contractual issues may disrupt the project.
+
+**Project risks** can impact both development and testing activities. Project managers are often responsible for handling project risks; however, it is not uncommon for test managers to manage test-related project risks.
