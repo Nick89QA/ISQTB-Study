@@ -322,3 +322,71 @@ During **test planning**, configuration management procedures and infrastructure
 - Errors in loop control structures.
 - Inadequate response times for high-performance systems.
 - User experience (UX) feedback might not meet product expectations.
+
+#### Project Risks
+
+**Project risk** refers to situations that, if they occur, may negatively impact a project's ability to achieve its objectives.
+
+##### Examples of project risks:
+
+- **Project issues:**
+  - Delays may occur in delivery, task completion, or meeting exit criteria or the definition of done.
+  - Inaccurate estimates, reallocation of funds, or general cost-cutting may result in inadequate funding.
+  - Late changes may require substantial re-work.
+
+- **Organizational issues:**
+  - Insufficient skills, training, or staff availability.
+  - Personnel issues causing conflicts or other problems.
+  - Limited availability of users, business staff, or subject matter experts due to conflicting priorities.
+
+- **Political issues:**
+  - Testers may not adequately communicate their needs or test results.
+  - Developers/testers may not act on testing and review feedback (e.g., by not improving practices).
+  - Improper attitudes toward testing or unrealistic testing expectations (e.g., undervaluing defect detection).
+
+- **Technical issues:**
+  - Requirements may be poorly defined.
+  - Requirements may not be achievable within existing constraints.
+  - The test environment may not be ready on time.
+  - Data conversion, migration planning, and tool support may be delayed.
+  - Development process weaknesses may affect the quality of project work products (e.g., design, code, configuration, test data, test cases).
+  - Poor defect management may lead to accumulated defects and technical debt.
+
+- **Supplier issues:**
+  - A third party may fail to deliver a product/service or face financial issues.
+  - Contractual issues may disrupt the project.
+
+**Project risks** can impact both development and testing activities. Project managers are often responsible for handling project risks; however, it is not uncommon for test managers to manage test-related project risks.
+
+#### 5.5.3 Risk-Based Testing and Product Quality
+
+**Risk-based testing** leverages risk to focus testing efforts, helping to identify where to start testing, which areas require more attention, and how to mitigate potential adverse outcomes.
+
+Risk-based testing aims to:
+- **Reduce the probability** of negative events or minimize their impact.
+- **Mitigate risk** by identifying and analyzing risks, helping to make informed testing decisions.
+- **Provide information** on residual risks, offering insight into unresolved risks.
+
+##### Key elements of a risk-based approach:
+1. **Product Risk Analysis**:
+  - Identifies and assesses the likelihood and impact of product risks.
+  - Guides test planning, preparation, execution, and monitoring.
+  - Conducted early to contribute to project success.
+
+2. **Guiding Decisions**:
+  - Influences the **test techniques** to be used.
+  - Determines the **types and levels of testing** needed (e.g., security or accessibility testing).
+  - Defines the **extent and prioritization** of testing to uncover critical defects early.
+  - Highlights additional **risk reduction measures** (e.g., training for inexperienced designers).
+
+3. **Stakeholder Collaboration**:
+  - Engages stakeholders to leverage collective knowledge for accurate risk analysis.
+  - Ensures a structured approach to assess, re-evaluate, and prioritize risks throughout the project.
+
+##### Risk Management Activities:
+- **Risk Analysis**: Continuously assess what might go wrong.
+- **Prioritization**: Determine which risks require immediate action.
+- **Mitigation**: Implement proactive measures to reduce risk.
+- **Contingency Planning**: Prepare responses in case risks materialize.
+
+Testing also serves to identify new risks, decide which risks to mitigate, and reduce uncertainty around potential risks.
