@@ -390,3 +390,34 @@ Risk-based testing aims to:
 - **Contingency Planning**: Prepare responses in case risks materialize.
 
 Testing also serves to identify new risks, decide which risks to mitigate, and reduce uncertainty around potential risks.
+
+#### 5.6 Defect Management
+
+One of the main objectives of testing is to identify defects. Defects found during testing are logged, investigated, and tracked to ensure they reach resolution. The **defect management process** should cover:
+- **Defect workflow and classification rules**, agreed upon by all stakeholders, including architects, developers, testers, and product owners.
+- **Tracking** from defect identification to its resolution, which could involve correcting the defect, deferring it, or accepting it as a permanent limitation.
+
+In some cases, organizations may adopt **informal defect management** methods, but a formal approach can streamline defect handling.
+
+#### Managing False Positives
+Not all failures are due to software defects. For instance, a test might fail due to a **broken network connection** rather than a defect in the software itself. Testers should minimize reporting these false positives as defects by ensuring the issues are genuine failures of the product.
+
+#### Defect Reporting
+Defects may arise during various development stages—coding, testing, or documentation review—and they may affect any work product, from code to user manuals. Effective defect management relies on establishing clear **standards for defect attributes, classification, and workflow**.
+
+Typical objectives of defect reports:
+- Inform developers and stakeholders of adverse events, helping to **identify, isolate, and address** issues.
+- Enable test managers to **track work product quality** and assess the impact on testing efforts (e.g., high defect counts could divert tester time away from executing new tests).
+- Suggest **improvements in development and testing processes**.
+
+#### Elements of a Defect Report
+A typical defect report for dynamic testing includes:
+- **Identifier**: A unique ID for tracking.
+- **Title/Summary**: A concise description.
+- **Report Date, Author, and Organization**: For accountability.
+- **Test Item and Environment**: Configuration and context.
+- **Lifecycle Phase**: Where the defect occurred.
+- **Defect Description**: Details for reproduction and resolution, with logs, screenshots, or videos if applicable.
+- **Expected vs. Actual Results**: To pinpoint the failure.
+- **Severity**: Degree of impact on stakeholders.
+- **Priority**: Urgency of the fix.
