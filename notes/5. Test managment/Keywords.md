@@ -421,3 +421,14 @@ A typical defect report for dynamic testing includes:
 - **Expected vs. Actual Results**: To pinpoint the failure.
 - **Severity**: Degree of impact on stakeholders.
 - **Priority**: Urgency of the fix.
+- **State of the Defect Report**: Indicates the current progress or status, such as *open*, *deferred*, *duplicate*, *waiting to be fixed*, *awaiting confirmation testing*, *re-opened*, or *closed*.
+- **Conclusions, Recommendations, and Approvals**: Final remarks and recommendations about the defect, including any necessary approvals.
+- **Global Issues**: Identifies other areas or systems that could be impacted by changes made to resolve the defect.
+- **Change History**: Records each step taken by the team to isolate, repair, and verify the defect, enabling a clear timeline of actions.
+- **References**: Links to the specific test case or other resources that first identified the issue.
+
+**Automation in Defect Management Tools**: Many defect management tools automate certain aspects, like generating unique identifiers and updating defect status throughout the workflow. These tools may also automatically assign defects and track their progression, making defect management more efficient.
+
+**Documentation for Static Testing Defects**: Defects identified during static testing, especially through reviews, are typically documented separately, often in meeting notes rather than standard defect reports.
+
+For a comprehensive example, refer to the **ISO/IEC/IEEE 29119-3** standard, which details typical defect report contents, referred to as incident reports in the standard.
