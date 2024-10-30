@@ -52,3 +52,40 @@ These tools apply to test management across the software development lifecycle:
 - **Application Lifecycle Management (ALM) Tools**: Manage the software lifecycle from planning through testing to deployment.
 - **Requirements Management Tools**: Aid in traceability between requirements and test cases.
 - **Defect Management Tools**: Track and manage defects from detection through resolution.
+- **Configuration Management Tools**: Help maintain consistency of software artifacts, versions, and environments throughout development and testing.
+- **Continuous Integration Tools (D)**: Enable automated builds and integrations, typically supporting early defect detection.
+
+### Tool Support for Static Testing
+Static testing tools focus on detecting potential defects early, even before code execution. Examples:
+- **Static Analysis Tools (D)**: Used by developers to analyze code for errors, security issues, and adherence to standards.
+
+### Tool Support for Test Design and Implementation
+These tools aid in creating maintainable test artifacts, such as test cases, procedures, and data. Examples:
+- **Model-Based Testing Tools**: Facilitate test case generation based on models.
+- **Test Data Preparation Tools**: Help prepare and manage test data for different testing scenarios.
+
+In some instances, these tools may overlap with execution tools or integrate with them for smoother workflows.
+
+### Tool Support for Test Execution and Logging
+These tools automate and optimize the test execution and logging processes. Examples:
+- **Test Execution Tools**: Run tests automatically, often used in regression testing.
+- **Coverage Tools (D)**: Assess the extent of test coverage on requirements or code.
+- **Test Harnesses (D)**: Provide a controlled environment for testing specific components or units.
+
+### Tool Support for Performance Measurement and Dynamic Analysis
+Performance testing and dynamic analysis are difficult to manage manually. These tools provide insights into performance issues:
+- **Performance Testing Tools**: Measure system performance under load.
+- **Dynamic Analysis Tools (D)**: Analyze application behavior during execution, useful for identifying runtime issues.
+
+### Tool Support for Specialized Testing Needs
+Some tools focus on specialized non-functional testing, such as accessibility, usability, and security testing.
+
+---
+
+## 6.1.2 Benefits and Risks of Test Automation
+
+While test automation can be highly beneficial, its effectiveness depends on proper implementation and ongoing maintenance. Key benefits of test automation, especially for test execution, include:
+
+- **Reduced Manual Effort**: Automates repetitive tasks, such as regression testing, environment setup, data re-entry, and standards compliance checks.
+- **Enhanced Consistency**: Ensures tests are executed in a consistent manner, reducing human error in repetitive tasks.
+- **Scalability**: Supports large-scale or complex testing scenarios that would be challenging to execute manually.
