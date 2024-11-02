@@ -144,3 +144,33 @@ Proper integration of these tools requires addressing specific challenges:
 These tools automate test script execution but often require extensive maintenance:
 
 - **Script Maintenance**: Recorded test actions are rigid, failing if the UI changes. This method needs significant script maintenance, as recorded scripts are often unable to adapt to unexpected system changes.
+- - **Data-driven test approach**: In this approach, test inputs and expected results are stored in a separate format (e.g., a spreadsheet), allowing a generic test script to use different sets of data inputs. The same script can thus be executed multiple times with various data.
+
+- **Keyword-driven test approach**: This approach involves using a generic script that processes keywords (or action words) describing the actions needed. These keywords then call additional scripts that process the corresponding test data.
+
+Both approaches require knowledge of the scripting language, but even testers without this knowledge can contribute by creating test data or keywords. Expected results must always be compared to actual results, either dynamically or after the test.
+
+Further details on data-driven and keyword-driven testing can be found in **ISTQB-CTAL-TAE**, **Fewster (1999)**, and **Buwalda (2001)**.
+
+#### Model-Based Testing (MBT) Tools
+MBT tools capture functional specifications as models, such as activity diagrams. Created by system designers, these models enable MBT tools to generate test case specifications, which can be stored in a test management tool and/or executed by a test execution tool (see **ISTQB-CTFL-MBT**).
+
+#### Test Management Tools
+Test management tools often interface with other tools or spreadsheets to:
+- Present information in an organization-specific format.
+- Maintain traceability to requirements within a requirements management tool.
+- Link version data to a configuration management tool.
+
+This is particularly relevant when using an integrated tool (e.g., **Application Lifecycle Management**) that includes various modules (e.g., test management, project scheduling) accessible across organizational groups.
+
+### 6.2 Effective Use of Tools
+
+#### 6.2.1 Main Principles for Tool Selection
+Key considerations for selecting tools in an organization:
+
+- Assessing the maturity, strengths, and weaknesses of the organization.
+- Identifying process improvement opportunities that the tool can support.
+- Understanding the technology of the test object(s) for compatibility.
+- Ensuring integration with existing tools (e.g., build and continuous integration tools).
+- Evaluating the tool based on clear, objective criteria.
+- Considering whether the tool offers a free trial period and its duration.
