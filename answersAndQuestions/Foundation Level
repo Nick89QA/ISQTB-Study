@@ -1,3 +1,7 @@
 Questions and answers
 1. Gray Box Testing includes both Black Box and White Box Testing features
-2. System testing should investigate: Non-functional requirements and Functional requirements
+2. System testing should investigate?
+   Non-functional requirements and Functional requirements
+3. Which test may not mimic real world situations?
+   Structural Testing
+4.
