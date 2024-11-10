@@ -1,9 +1,10 @@
 Questions and answers
-1. Gray Box Testing includes both Black Box and White Box Testing features
+1. Gray Box Testing includes both Black Box and White Box Testing features!
 2. System testing should investigate?
    Non-functional requirements and Functional requirements
 3. Which test may not mimic real world situations?
    Structural Testing
 4. ? is a very early build intended for limited distribution to a few key customers and to marketing for demonstration purposes?
    Beta release
-5.
+5. ? indicates how important it to fix the bug and when it should be fixed?
+   Severity, Priority, All above
