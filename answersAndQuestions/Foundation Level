@@ -28,3 +28,6 @@ Questions and answers
 
 10. Which is not a testing principle?
     Exhaustive testing
+
+11. Why is successful test execution automation difficult?
+    Because the maintenance of the system is difficult
