@@ -51,3 +51,6 @@ Questions and answers
     Independent testing
 
 18. Gray Box testing includes both Black box and White Box testing features
+
+19. A white box testing technique that measures the numbers of or percentage of decision directions executed by the test case designed is called
+    Decision/Condition coverage
