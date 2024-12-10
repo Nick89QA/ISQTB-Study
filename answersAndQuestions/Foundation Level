@@ -21,8 +21,9 @@ Questions and answers
 
 8. Which of the following is a KEY test control task?
    Initiating corrective actions
+
 9. As a test leader you are collecting measures about defects. You recognize that after the first test cycle-covering all
-  the requirements-subsystem C has defect density that is 150% higher than the average. Subsystem A on the other hand has a defect density
+  the requirements-subsystem "C" has defect density that is 150% higher than the average. Subsystem "A" on the other hand has a defect density
   that is 60% lower than the average. What conclusions for the next test cycle could you draw from this fact?
   It is probable that subsystem C has still more hidden defects. Therefore we need to test subsystem C in more detail
 
@@ -66,3 +67,6 @@ Questions and answers
 
 22. Which test may not mimic real world situations?
     Structural Testing
+
+23. Who typically use static analysis tools?
+    Developers and designers
