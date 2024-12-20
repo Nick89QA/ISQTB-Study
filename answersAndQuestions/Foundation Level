@@ -83,3 +83,6 @@ Questions and answers
 
 27. Which tool needs to interface with other automation software in order to generate reports in the format required by the organization?
     Test management tools
+
+28. If candidate is giving an exam of 40 questions, should get 25 marks to pass (61%) and should get 80% for distinction, what is equivalence class?
+    32,37,40
