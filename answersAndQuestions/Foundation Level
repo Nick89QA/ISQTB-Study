@@ -86,3 +86,6 @@ Questions and answers
 
 28. If candidate is giving an exam of 40 questions, should get 25 marks to pass (61%) and should get 80% for distinction, what is equivalence class?
     32,37,40
+
+29. What can static analysis NOT find?
+    Whether the value stored in a variable is correct
