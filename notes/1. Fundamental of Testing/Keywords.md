@@ -432,7 +432,7 @@ Test completion work products include:
 - Test summary reports
 - Action items for improvement of subsequent projects or iterations
 - Change requests or product backlog items
-- Finalized testware
+- Finalized testWare
 
 ---
 
