@@ -36,7 +36,7 @@ Questions and answers
 12. Which test design technique relies heavily on prior thorough knowledge of the system?
     Experience-based technique
 
-13. Handover of Testware is a part of which activity?
+13. Handover of TestWare is a part of which activity?
     Test Completion
 
 14. Static analysis is best described as?
@@ -111,3 +111,9 @@ Questions and answers
 
 37. Which approaches can help increase the quality of software?
     Incorporating rigorous testing, establishing defects metrics
+
+38. Which of the following could be a reason for a failure
+    Testing fault
+    Software fault
+    Design fault
+    Environmental fault
