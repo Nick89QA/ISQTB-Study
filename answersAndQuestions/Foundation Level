@@ -122,3 +122,7 @@ Questions and answers
     Which is MOST likely a failure?
 
     The product crashed when the user selected an option in a dialogue box
+
+40. What are good practices for testing within the development life cycle?
+    Early test analysis and design
+    Different test levels are defined with specific objectives
