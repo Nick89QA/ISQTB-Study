@@ -126,3 +126,6 @@ Questions and answers
 40. What are good practices for testing within the development life cycle?
     Early test analysis and design
     Different test levels are defined with specific objectives
+
+41. Which of these statements about functional testing is true?
+    Functional testing is useful throughout the life cycle and can be applied by business analysts, testers, developers and users.
