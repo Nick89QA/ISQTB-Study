@@ -129,3 +129,6 @@ Questions and answers
 
 41. Which of these statements about functional testing is true?
     Functional testing is useful throughout the life cycle and can be applied by business analysts, testers, developers and users.
+
+42. How is the scope of maintenance testing assessed?
+    Scope is related to the risk size of the changes and size of the system under test
