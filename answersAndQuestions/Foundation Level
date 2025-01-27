@@ -149,3 +149,6 @@ Questions and answers
 
 48. According to the ISTQB glossary regression testing is required for what purpose?
     To ensure that defects have not been introduced by modification
+
+49. Maintenance testing is:
+    Testing a released system that has changed
