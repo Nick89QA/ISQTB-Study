@@ -152,3 +152,6 @@ Questions and answers
 
 49. Maintenance testing is:
     Testing a released system that has changed
+
+50. What is the MAIN benefit of designing tests early in the life cycle?
+    It helps prevent defects from being introduced in to the code
