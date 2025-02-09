@@ -171,3 +171,6 @@ Questions and answers
 
 55. A type of functional testing, which investigates the functions relating to detections of threats, such as virus from malicious outsiders?
     Security Testing
+
+56. System integration testing should be done after
+    System testing
