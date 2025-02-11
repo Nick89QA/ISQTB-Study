@@ -174,3 +174,6 @@ Questions and answers
 
 56. System integration testing should be done after
     System testing
+
+57. What is the normal order of activities in which software testing is organised?
+    Unit, integration, system, validation
