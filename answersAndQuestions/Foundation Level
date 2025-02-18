@@ -178,4 +178,5 @@ Questions and answers
 57. What is the normal order of activities in which software testing is organised?
     Unit, integration, system, validation
 
-58.
+58. A deviation from the specified or expected behaviour that is visible to end-users is called:
+    A failure( is deviation of the component or system from its expected delivery, service or result )
