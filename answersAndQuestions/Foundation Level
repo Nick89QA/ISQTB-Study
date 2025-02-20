@@ -60,10 +60,9 @@ Questions and answers
     Time, Organizational, and Cultural
 
 21. Which of the following is not activity in the test process?
-    Test planning
-    Test monitoring and control
-    Test analysis and test design
-    NONE
+    Not Test planning
+    Not Test monitoring and control
+    Not Test analysis and test design
 
 22. Which test may not mimic real world situations?
     Structural Testing
@@ -180,3 +179,6 @@ Questions and answers
 
 58. A deviation from the specified or expected behaviour that is visible to end-users is called:
     A failure( is deviation of the component or system from its expected delivery, service or result )
+
+59. Which of the following is not among the main groups of activities in a test process?
+    Requirement Analysis
