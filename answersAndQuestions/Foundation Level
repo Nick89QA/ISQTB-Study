@@ -194,3 +194,6 @@ Questions and answers
 
 63. Which of the following statements is the MOST valid goal for a test team?
     Cause as many failures as possible so that faults can be identified and corrected.
+
+64. Which of the following is false?
+    A system is necessarily more reliable after debugging for the removal of a fault
