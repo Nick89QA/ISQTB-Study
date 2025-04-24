@@ -229,4 +229,5 @@ Questions and answers
     To identify, evaluate, and rank tools, and recommend tools to management
 
 75. What should be taken into account to determine when to stop testing?
-     True Technical risk, business risk, project constraints
+     True: Technical risk, business risk, project constraints
+     False: product documentation
