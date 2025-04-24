@@ -228,4 +228,6 @@ Questions and answers
 74. The software engineer's role in tool selection is:
     To identify, evaluate, and rank tools, and recommend tools to management
 
-75.
+75. What should be taken into account to determine when to stop testing?
+     True: Technical risk, business risk, project constraints
+     False: product documentation
