@@ -1,4 +1,4 @@
-📘 1. Основы тестирования (Fundamentals of Testing)
+📘 1. (Fundamentals of Testing)
 	•		1.	Gray Box Testing includes both Black Box and White Box Testing features
 	•		2.	Which is not a testing principle? — Exhaustive testing
 	•		3.	Which defects are OFTEN much cheaper to remove? — Defects that were detected early
@@ -22,15 +22,15 @@
 ⸻
 
 🛠️ 2. (Testing Throughout the Software Life Cycle)
-	•		2.	System testing should investigate — Functional & Non-functional
-	•		11.	Why is successful test execution automation difficult? — Maintenance is difficult
-	•		20.	Testing throughout the project in a three-dimensional sense — Time, Organizational, and Cultural
-	•		40.	What are good practices for testing within the development life cycle?
-	•		49.	Maintenance testing is — Testing a released system that has changed
-	•		54.	Methodologies adopted while performing Maintenance testing
-	•		56.	System integration testing should be done after — System testing
-	•		57.	What is the normal order of activities? — Unit, integration, system, validation
-	•		62.	Which of the following is a KEY task of a tester?
+	•		20.	System testing should investigate — Functional & Non-functional
+	•		21.	Why is successful test execution automation difficult? — Maintenance is difficult
+	•		22.	Testing throughout the project in a three-dimensional sense — Time, Organizational, and Cultural
+	•		23.	What are good practices for testing within the development life cycle?
+	•		24.	Maintenance testing is — Testing a released system that has changed
+	•		25.	Methodologies adopted while performing Maintenance testing
+	•		26.	System integration testing should be done after — System testing
+	•		27.	What is the normal order of activities? — Unit, integration, system, validation
+	•		28.	Which of the following is a KEY task of a tester?
 
 ⸻
 
