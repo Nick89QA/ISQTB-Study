@@ -1,23 +1,23 @@
 📘 1. Основы тестирования (Fundamentals of Testing)
 	•		1.	Gray Box Testing includes both Black Box and White Box Testing features
-	•		10.	Which is not a testing principle? — Exhaustive testing
-	•		16.	Which defects are OFTEN much cheaper to remove? — Defects that were detected early
-	•		17.	What principle is BEST described when test design are written by a third party? — Independent testing
-	•		31.	Fault Masking is — Error condition hiding another error condition
-	•		32.	PDCA is known as — Plan, Do, Check, Accept
-	•		37.	Which approaches can help increase the quality of software?
-	•		38.	Which of the following could be a reason for a failure
-	•		39.	Which is MOST likely a failure? — The product crashed…
-	•		50.	What is the MAIN benefit of designing tests early in the life cycle?
-	•		58.	A deviation from the specified or expected behaviour… — A failure
-	•		60.	Which is the best definition of complete testing? — You have discovered every bug
-	•		61.	Which is not the testing objectives? — Debugging defects
-	•		63.	Which of the following statements is the MOST valid goal for a test team?
-	•		64.	Which of the following is false? — System is necessarily more reliable after debugging
-	•		65.	Failure is — Incorrect program behaviour due to a fault
-	•		66.	One Key reason why developers have difficulty testing their own work is — Lack of Objectivity
-	•		67.	Pick the best definition of quality — Conformance to requirements
-	•		68.	Independent Verification & Validation is — Done by an Entity Outside the project
+	•		2.	Which is not a testing principle? — Exhaustive testing
+	•		3.	Which defects are OFTEN much cheaper to remove? — Defects that were detected early
+	•		4.	What principle is BEST described when test design are written by a third party? — Independent testing
+	•		5.	Fault Masking is — Error condition hiding another error condition
+	•		6.	PDCA is known as — Plan, Do, Check, Accept
+	•		7.	Which approaches can help increase the quality of software?
+	•		8.	Which of the following could be a reason for a failure
+	•		9.	Which is MOST likely a failure? — The product crashed…
+	•		10.	What is the MAIN benefit of designing tests early in the life cycle?
+	•		11.	A deviation from the specified or expected behaviour… — A failure
+	•		12.	Which is the best definition of complete testing? — You have discovered every bug
+	•		13.	Which is not the testing objectives? — Debugging defects
+	•		14.	Which of the following statements is the MOST valid goal for a test team?
+	•		15.	Which of the following is false? — System is necessarily more reliable after debugging
+	•		16.	Failure is — Incorrect program behaviour due to a fault
+	•		17.	One Key reason why developers have difficulty testing their own work is — Lack of Objectivity
+	•		18.	Pick the best definition of quality — Conformance to requirements
+	•		19.	Independent Verification & Validation is — Done by an Entity Outside the project
 
 ⸻
 
