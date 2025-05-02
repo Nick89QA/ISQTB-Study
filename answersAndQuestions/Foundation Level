@@ -1,236 +1,99 @@
-Questions and answers
-1. Gray Box Testing includes both Black Box and White Box Testing features!
-
-2. System testing should investigate?
-   Non-functional requirements and Functional requirements
-
-3. Which test may not mimic real world situations?
-   Structural Testing
-
-4. ? is a very early build intended for limited distribution to a few key customers and to marketing for demonstration purposes?
-   Beta release
-
-5. ? indicates how important it to fix the bug and when it should be fixed?
-   Severity, Priority, All above
-
-6. Component integration testing can be done?
-   After component testing
-
-7. Which is not a black testing technique?
-   Decision testing
-
-8. Which of the following is a KEY test control task?
-   Initiating corrective actions
-
-9. As a test leader you are collecting measures about defects. You recognize that after the first test cycle-covering all
-  the requirements-subsystem "C" has defect density that is 150% higher than the average. Subsystem "A" on the other hand has a defect density
-  that is 60% lower than the average. What conclusions for the next test cycle could you draw from this fact?
-  It is probable that subsystem C has still more hidden defects. Therefore we need to test subsystem C in more detail
-
-10. Which is not a testing principle?
-    Exhaustive testing
-
-11. Why is successful test execution automation difficult?
-    Because the maintenance of the system is difficult
-
-12. Which test design technique relies heavily on prior thorough knowledge of the system?
-    Experience-based technique
-
-13. Handover of TestWare is a part of which activity?
-    Test Completion
-
-14. Static analysis is best described as?
-    The analysis of program code
-
-15. Bug life cycle
-    Open, Assigned, Fixed, Closed
-
-16. Which defects are OFTEN much cheaper to remove?
-    Defects that were detected early
-
-17. What principle is BEST described when test design are written by a third party?
-    Independent testing
-
-18. Gray Box testing includes both Black box and White Box testing features
-
-19. A white box testing technique that measures the numbers of or percentage of decision directions executed by the test case designed is called
-    Decision/Condition coverage
-
-20. Testing throughout the project in a three-dimensional sense refers to the following dimensions:
-    Time, Organizational, and Cultural
-
-21. Which of the following is not activity in the test process?
-    Not Test planning
-    Not Test monitoring and control
-    Not Test analysis and test design
-
-22. Which test may not mimic real world situations?
-    Structural Testing
-
-23. Who typically use static analysis tools?
-    Developers and designers
-
-24. Some tools are geared more for developers use. For the 5 tools listed, which statement BEST details those for developers
-    Coverage measurement tools
-    Dynamic analysis tools
-
-25. Maintenance releases and technical assistance centres are examples of which of the following costs of quality?
-    External failures
-
-26. Which of the following is a MAJOR task of evaluating exit criteria and reporting?
-    Writing a test summary report for stakeholders
-
-27. Which tool needs to interface with other automation software in order to generate reports in the format required by the organization?
-    Test management tools
-
-28. If candidate is giving an exam of 40 questions, should get 25 marks to pass (61%) and should get 80% for distinction, what is equivalence class?
-    32,37,40
-
-29. What can static analysis NOT find?
-    Whether the value stored in a variable is correct
-
-30. Beta release is a very early build intended for limited distribution to a few key customers and to marketing for demonstration purposes
-
-31. Fault Masking is:
-    Error condition hiding another error condition
-
-32. PDCA is known as:
-    Plan, Do, Check, Accept
-
-33. Test data planning essentially includes:
-    Test Procedure Planning
-
-34. The PROCEDURES and STANDARDS are used within individual workbenches to produce the right output products.
-
-35. Which of the following statements is not TRUE:
-    Inspections is appropriate even where there are no written documents
-
-36. A person who documents all the issues, problems and open points that were identified during a formal review.
-    Scribe
-
-37. Which approaches can help increase the quality of software?
-    Incorporating rigorous testing, establishing defects metrics
-
-38. Which of the following could be a reason for a failure
-    Testing fault
-    Software fault
-    Design fault
-    Environmental fault
-
-39. Below is a list of problems that can be observed during testing or operation.
-    Which is MOST likely a failure?
-
-    The product crashed when the user selected an option in a dialogue box
-
-40. What are good practices for testing within the development life cycle?
-    Early test analysis and design
-    Different test levels are defined with specific objectives
-
-41. Which of these statements about functional testing is true?
-    Functional testing is useful throughout the life cycle and can be applied by business analysts, testers, developers and users.
-
-42. How is the scope of maintenance testing assessed?
-    Scope is related to the risk size of the changes and size of the system under test
-
-43. Functional testing is mostly
-    Validation techniques
-
-44. White box testing
-    Same as glass box testing and clear box testing
-
-45. Which of the following is a type of non-functional testing?
-    Usability testing
-
-46. The Alpha testing is performed at the developing organization's site
-
-47. Which is not the software characteristics ?
-    Scalability
-
-48. According to the ISTQB glossary regression testing is required for what purpose?
-    To ensure that defects have not been introduced by modification
-
-49. Maintenance testing is:
-    Testing a released system that has changed
-
-50. What is the MAIN benefit of designing tests early in the life cycle?
-    It helps prevent defects from being introduced in to the code
-
-51. Which type of test design techniques does the following statement best describe a procedure
-    to derive test cases based on the specifications of a component?
-    Black Box Testing
-
-52. White box techniques are also called as:
-    Structural Testing.
-
-53. Component Testing is also called as:
-    Unit testing, Program testing, Module testing, System Component testing.
-
-54. Methodologies adopted while performing Maintenance testing
-    Breadth test and Depth test
-
-55. A type of functional testing, which investigates the functions relating to detections of threats, such as virus from malicious outsiders?
-    Security Testing
-
-56. System integration testing should be done after
-    System testing
-
-57. What is the normal order of activities in which software testing is organised?
-    Unit, integration, system, validation
-
-58. A deviation from the specified or expected behaviour that is visible to end-users is called:
-    A failure( is deviation of the component or system from its expected delivery, service or result )
-
-59. Which of the following is not among the main groups of activities in a test process?
-    Requirement Analysis
-
-60. Which is the best definition of complete testing?
-    You have discovered every bug in the program
-
-61. Which is not the testing objectives?
-    Debugging defects
-
-62. Which of the following is a KEY task of a tester?
-    Reviewing tests developed by others
-
-63. Which of the following statements is the MOST valid goal for a test team?
-    Cause as many failures as possible so that faults can be identified and corrected.
-
-64. Which of the following is false?
-    A system is necessarily more reliable after debugging for the removal of a fault
-
-65. Failure is
-    Incorrect program behaviour due to a fault in the program
-
-66. One Key reason why developers have difficulty testing their own work is:
-    Lack of Objectivity
-
-67. Pick the best definition of quality?
-    Conformance to requirements
-
-68. Independent Verification & Validation is:
-    Done by an Entity Outside the projects sphere of influence
-
-69. Link Testing is also called as:
-    Component integration testing
-
-70. Which test investigates both functional and non-functional system requirements?
-    System testing
-
-71. Which is not true - the black box tester:
-    should be able to understand the source code.
-
-72. Code Coverage is used as a measure of what?
-    Test effectiveness
-
-73. Which of the following tools would be involved in the automation of regression test?
-    Capture/Playback
-
-74. The software engineer's role in tool selection is:
-    To identify, evaluate, and rank tools, and recommend tools to management
-
-75. What should be taken into account to determine when to stop testing?
-     True: Technical risk, business risk, project constraints
-     False: product documentation
-
-76. CAST stands for
-    Computer Aided Software Testing
+📘 1. Основы тестирования (Fundamentals of Testing)
+	•		1.	Gray Box Testing includes both Black Box and White Box Testing features
+	•		10.	Which is not a testing principle? — Exhaustive testing
+	•		16.	Which defects are OFTEN much cheaper to remove? — Defects that were detected early
+	•		17.	What principle is BEST described when test design are written by a third party? — Independent testing
+	•		31.	Fault Masking is — Error condition hiding another error condition
+	•		32.	PDCA is known as — Plan, Do, Check, Accept
+	•		37.	Which approaches can help increase the quality of software?
+	•		38.	Which of the following could be a reason for a failure
+	•		39.	Which is MOST likely a failure? — The product crashed…
+	•		50.	What is the MAIN benefit of designing tests early in the life cycle?
+	•		58.	A deviation from the specified or expected behaviour… — A failure
+	•		60.	Which is the best definition of complete testing? — You have discovered every bug
+	•		61.	Which is not the testing objectives? — Debugging defects
+	•		63.	Which of the following statements is the MOST valid goal for a test team?
+	•		64.	Which of the following is false? — System is necessarily more reliable after debugging
+	•		65.	Failure is — Incorrect program behaviour due to a fault
+	•		66.	One Key reason why developers have difficulty testing their own work is — Lack of Objectivity
+	•		67.	Pick the best definition of quality — Conformance to requirements
+	•		68.	Independent Verification & Validation is — Done by an Entity Outside the project
+
+⸻
+
+🛠️ 2. Жизненный цикл разработки ПО и тестирования (Testing Throughout the Software Life Cycle)
+	•		2.	System testing should investigate — Functional & Non-functional
+	•		11.	Why is successful test execution automation difficult? — Maintenance is difficult
+	•		20.	Testing throughout the project in a three-dimensional sense — Time, Organizational, and Cultural
+	•		40.	What are good practices for testing within the development life cycle?
+	•		49.	Maintenance testing is — Testing a released system that has changed
+	•		54.	Methodologies adopted while performing Maintenance testing
+	•		56.	System integration testing should be done after — System testing
+	•		57.	What is the normal order of activities? — Unit, integration, system, validation
+	•		62.	Which of the following is a KEY task of a tester?
+
+⸻
+
+🧪 3. Статическое тестирование (Static Testing)
+	•		14.	Static analysis is best described as — The analysis of program code
+	•		23.	Who typically use static analysis tools? — Developers and designers
+	•		29.	What can static analysis NOT find? — Whether the value in a variable is correct
+	•		35.	Which of the following statements is not TRUE — Inspections without documents
+	•		36.	A person who documents all issues in a review — Scribe
+
+⸻
+
+🧮 4. Техники тест-дизайна (Test Design Techniques)
+	•		3.	Which test may not mimic real world situations? — Structural Testing
+	•		7.	Which is not a black testing technique? — Decision testing
+	•		12.	Which test design technique relies heavily on knowledge of the system? — Experience-based
+	•		19.	A white box testing technique… — Decision/Condition coverage
+	•		28.	Equivalence class question
+	•		51.	Which test design technique is based on specs? — Black Box
+	•		52.	White box techniques are also called — Structural Testing
+
+⸻
+
+🧩 5. Тест-менеджмент (Test Management)
+	•		8.	Which of the following is a KEY test control task? — Initiating corrective actions
+	•		9.	Subsystem C defect density scenario
+	•		13.	Handover of TestWare is a part of — Test Completion
+	•		26.	MAJOR task of evaluating exit criteria — Test summary report
+	•		27.	Which tool needs to interface for reports? — Test management tools
+	•		41.	Functional testing is useful for…
+	•		42.	How is the scope of maintenance testing assessed?
+	•		70.	Which test investigates both functional and non-functional requirements? — System Testing
+	•		75.	What should be taken into account to stop testing?
+
+⸻
+
+🔧 6. Инструменты тестирования (Tool Support for Testing)
+	•		24.	Tools for developers — Coverage measurement, dynamic analysis tools
+	•		43.	Functional testing is mostly — Validation techniques
+	•		44.	White box testing is same as — Glass box testing
+	•		72.	Code Coverage is used as a measure of — Test effectiveness
+	•		73.	Which tool is used for regression testing automation? — Capture/Playback
+	•		74.	Software engineer’s role in tool selection
+	•		76.	CAST stands for — Computer Aided Software Testing
+
+⸻
+
+🧠 7. Типы тестирования (Types of Testing)
+	•		4.	? early build for customers — Beta release
+	•		5.	? indicates importance to fix — Severity, Priority
+	•		6.	Component integration testing — After component testing
+	•		18.	Gray Box testing = Black + White
+	•		21.	Which is not an activity in the test process?
+	•		22.	Structural testing may not mimic real world
+	•		30.	Beta release again
+	•		33.	Test data planning includes — Test Procedure Planning
+	•		34.	Procedures and standards used…
+	•		45.	Non-functional testing example — Usability testing
+	•		46.	Alpha testing location — Developer site
+	•		47.	Not software characteristic — Scalability
+	•		48.	Regression testing per ISTQB
+	•		53.	Component testing = Unit, Module, etc.
+	•		55.	Security testing
+	•		59.	Not among test process groups — Requirement Analysis
+	•		69.	Link Testing is — Component integration testing
+	•		71.	Not true about black box tester — Should understand source code
