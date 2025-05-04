@@ -34,7 +34,7 @@
 
 ⸻
 
-🧪 3. Статическо (Static Testing)
+🧪 3. (Static Testing)
 	•		14.	Static analysis is best described as — The analysis of program code
 	•		23.	Who typically use static analysis tools? — Developers and designers
 	•		29.	What can static analysis NOT find? — Whether the value in a variable is correct
