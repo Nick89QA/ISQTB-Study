@@ -45,9 +45,9 @@
 
 🧮 4. (Test Design Techniques)
 	•		34.	Which test may not mimic real world situations? — Structural Testing
-	•		7.	Which is not a black testing technique? — Decision testing
-	•		12.	Which test design technique relies heavily on knowledge of the system? — Experience-based
-	•		19.	A white box testing technique… — Decision/Condition coverage
+	•		35.	Which is not a black testing technique? — Decision testing
+	•		36.	Which test design technique relies heavily on knowledge of the system? — Experience-based
+	•		37.	A white box testing technique… — Decision/Condition coverage
 	•		28.	Equivalence class question
 	•		51.	Which test design technique is based on specs? — Black Box
 	•		52.	White box techniques are also called — Structural Testing
