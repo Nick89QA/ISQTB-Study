@@ -35,16 +35,16 @@
 ⸻
 
 🧪 3. (Static Testing)
-	•		14.	Static analysis is best described as — The analysis of program code
-	•		23.	Who typically use static analysis tools? — Developers and designers
-	•		29.	What can static analysis NOT find? — Whether the value in a variable is correct
-	•		35.	Which of the following statements is not TRUE — Inspections without documents
-	•		36.	A person who documents all issues in a review — Scribe
+	•		29.	Static analysis is best described as — The analysis of program code
+	•		30.	Who typically use static analysis tools? — Developers and designers
+	•		31.	What can static analysis NOT find? — Whether the value in a variable is correct
+	•		32.	Which of the following statements is not TRUE — Inspections without documents
+	•		33.	A person who documents all issues in a review — Scribe
 
 ⸻
 
-🧮 4. Техники тест-дизайна (Test Design Techniques)
-	•		3.	Which test may not mimic real world situations? — Structural Testing
+🧮 4. (Test Design Techniques)
+	•		34.	Which test may not mimic real world situations? — Structural Testing
 	•		7.	Which is not a black testing technique? — Decision testing
 	•		12.	Which test design technique relies heavily on knowledge of the system? — Experience-based
 	•		19.	A white box testing technique… — Decision/Condition coverage
