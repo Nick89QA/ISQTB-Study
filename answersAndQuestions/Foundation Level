@@ -48,43 +48,43 @@
 	•		35.	Which is not a black testing technique? — Decision testing
 	•		36.	Which test design technique relies heavily on knowledge of the system? — Experience-based
 	•		37.	A white box testing technique… — Decision/Condition coverage
-	•		28.	Equivalence class question
-	•		51.	Which test design technique is based on specs? — Black Box
-	•		52.	White box techniques are also called — Structural Testing
+	•		38.	Equivalence class question
+	•		39.	Which test design technique is based on specs? — Black Box
+	•		40.	White box techniques are also called — Structural Testing
 
 ⸻
 
-🧩 5. Тест-менеджмент (Test Management)
-	•		8.	Which of the following is a KEY test control task? — Initiating corrective actions
-	•		9.	Subsystem C defect density scenario
-	•		13.	Handover of TestWare is a part of — Test Completion
-	•		26.	MAJOR task of evaluating exit criteria — Test summary report
-	•		27.	Which tool needs to interface for reports? — Test management tools
-	•		41.	Functional testing is useful for…
-	•		42.	How is the scope of maintenance testing assessed?
-	•		70.	Which test investigates both functional and non-functional requirements? — System Testing
-	•		75.	What should be taken into account to stop testing?
+🧩 5. (Test Management)
+	•		41.	Which of the following is a KEY test control task? — Initiating corrective actions
+	•		42.	Subsystem C defect density scenario
+	•		43.	Handover of TestWare is a part of — Test Completion
+	•		44.	MAJOR task of evaluating exit criteria — Test summary report
+	•		45.	Which tool needs to interface for reports? — Test management tools
+	•		46.	Functional testing is useful for…
+	•		47.	How is the scope of maintenance testing assessed?
+	•		48.	Which test investigates both functional and non-functional requirements? — System Testing
+	•		49.	What should be taken into account to stop testing?
 
 ⸻
 
-🔧 6. Инструменты тестирования (Tool Support for Testing)
-	•		24.	Tools for developers — Coverage measurement, dynamic analysis tools
-	•		43.	Functional testing is mostly — Validation techniques
-	•		44.	White box testing is same as — Glass box testing
-	•		72.	Code Coverage is used as a measure of — Test effectiveness
-	•		73.	Which tool is used for regression testing automation? — Capture/Playback
-	•		74.	Software engineer’s role in tool selection
-	•		76.	CAST stands for — Computer Aided Software Testing
+🔧 6. (Tool Support for Testing)
+	•		50.	Tools for developers — Coverage measurement, dynamic analysis tools
+	•		51.	Functional testing is mostly — Validation techniques
+	•		52.	White box testing is same as — Glass box testing
+	•		53.	Code Coverage is used as a measure of — Test effectiveness
+	•		54.	Which tool is used for regression testing automation? — Capture/Playback
+	•		55.	Software engineer’s role in tool selection
+	•		56.	CAST stands for — Computer Aided Software Testing
 
 ⸻
 
-🧠 7. Типы тестирования (Types of Testing)
-	•		4.	? early build for customers — Beta release
-	•		5.	? indicates importance to fix — Severity, Priority
-	•		6.	Component integration testing — After component testing
-	•		18.	Gray Box testing = Black + White
-	•		21.	Which is not an activity in the test process?
-	•		22.	Structural testing may not mimic real world
+🧠 7. (Types of Testing)
+	•		57.	? early build for customers — Beta release
+	•		58.	? indicates importance to fix — Severity, Priority
+	•		59.	Component integration testing — After component testing
+	•		60.	Gray Box testing = Black + White
+	•		61.	Which is not an activity in the test process?
+	•		62.	Structural testing may not mimic real world
 	•		30.	Beta release again
 	•		33.	Test data planning includes — Test Procedure Planning
 	•		34.	Procedures and standards used…
